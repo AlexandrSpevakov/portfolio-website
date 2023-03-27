@@ -1,4 +1,17 @@
+import { Archivo_Black, Roboto } from 'next/font/google';
+
+import Header from './components/Header';
 import './globals.css';
+
+const archivoBlack = Archivo_Black({
+  weight: '400',
+  variable: '--font-archivo-black',
+});
+
+const roboto = Roboto({
+  weight: '400',
+  variable: '--font-roboto',
+});
 
 export const metadata = {
   title: 'Create Next App',
@@ -11,8 +24,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body>{children}</body>
+    <html
+      lang="en"
+      className={`${archivoBlack.variable} ${roboto.variable} scroll-smooth`}
+    >
+      <body className="font-roboto">
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
