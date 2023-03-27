@@ -19,18 +19,18 @@ export default function Menu() {
       </li>
       <li className="relative">
         <a
-          href="#works"
-          className="outline-none duration-200 hover:text-white/70 focus:after:absolute focus:after:top-8 focus:after:block focus:after:h-0.5 focus:after:w-full focus:after:bg-white lg:focus:after:top-9 2xl:focus:after:top-11 2xl:focus:after:h-1"
-        >
-          Works
-        </a>
-      </li>
-      <li className="relative">
-        <a
           href="#skills"
           className="outline-none duration-200 hover:text-white/70 focus:after:absolute focus:after:top-8 focus:after:block focus:after:h-0.5 focus:after:w-full focus:after:bg-white lg:focus:after:top-9 2xl:focus:after:top-11 2xl:focus:after:h-1"
         >
           Skills
+        </a>
+      </li>
+      <li className="relative">
+        <a
+          href="#works"
+          className="outline-none duration-200 hover:text-white/70 focus:after:absolute focus:after:top-8 focus:after:block focus:after:h-0.5 focus:after:w-full focus:after:bg-white lg:focus:after:top-9 2xl:focus:after:top-11 2xl:focus:after:h-1"
+        >
+          Works
         </a>
       </li>
       <li className="relative">

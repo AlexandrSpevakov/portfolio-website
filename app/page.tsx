@@ -11,14 +11,13 @@ export default function Home() {
           Oleksandr Spievakov&apos;s
         </h2>
         <h1
-          className="mx-auto w-fit bg-cover bg-center bg-no-repeat py-11 px-28 font-archivo text-9xl text-white"
+          className="mx-auto mb-96 w-fit bg-cover bg-center bg-no-repeat py-11 px-28 font-archivo text-9xl text-white"
           style={{
             backgroundImage: `url(${bg.src})`,
           }}
         >
           Portfolio
         </h1>
-        <h2 className="mb-96 text-center text-6xl">Frontend Developer</h2>
       </section>
     </main>
   );
