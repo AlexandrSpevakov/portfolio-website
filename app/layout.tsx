@@ -1,4 +1,5 @@
 import { Archivo_Black, Roboto } from 'next/font/google';
+import Footer from './components/Footer';
 
 import Header from './components/Header';
 import './globals.css';
@@ -10,7 +11,6 @@ const archivoBlack = Archivo_Black({
 
 const roboto = Roboto({
   weight: ['400', '700'],
-  // weight: '400',
   variable: '--font-roboto',
 });
 
@@ -32,6 +32,7 @@ export default function RootLayout({
       <body className="font-roboto">
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
