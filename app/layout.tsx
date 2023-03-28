@@ -9,7 +9,8 @@ const archivoBlack = Archivo_Black({
 });
 
 const roboto = Roboto({
-  weight: '400',
+  weight: ['400', '700'],
+  // weight: '400',
   variable: '--font-roboto',
 });
 
