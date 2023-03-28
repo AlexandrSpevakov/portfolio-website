@@ -4,7 +4,7 @@ export default function Menu() {
       <li className="relative">
         <a
           href="#home"
-          className="outline-none duration-200 hover:opacity-70 focus:after:absolute focus:after:top-8 focus:after:block focus:after:h-0.5 focus:after:w-full focus:after:bg-white lg:focus:after:top-9 2xl:focus:after:top-11 2xl:focus:after:h-1"
+          className="relative outline-none after:absolute after:bottom-0 after:left-0 after:my-[-5px] after:mx-0 after:h-0.5 after:w-0 after:bg-white after:duration-200 hover:after:w-3/4"
         >
           Home
         </a>
@@ -12,7 +12,7 @@ export default function Menu() {
       <li className="relative">
         <a
           href="#about"
-          className="outline-none duration-200 hover:opacity-70 focus:after:absolute focus:after:top-8 focus:after:block focus:after:h-0.5 focus:after:w-full focus:after:bg-white lg:focus:after:top-9 2xl:focus:after:top-11 2xl:focus:after:h-1"
+          className="relative outline-none after:absolute after:bottom-0 after:left-0 after:my-[-5px] after:mx-0 after:h-0.5 after:w-0 after:bg-white after:duration-200 hover:after:w-3/4"
         >
           About
         </a>
@@ -20,7 +20,7 @@ export default function Menu() {
       <li className="relative">
         <a
           href="#works"
-          className="outline-none duration-200 hover:opacity-70 focus:after:absolute focus:after:top-8 focus:after:block focus:after:h-0.5 focus:after:w-full focus:after:bg-white lg:focus:after:top-9 2xl:focus:after:top-11 2xl:focus:after:h-1"
+          className="relative outline-none after:absolute after:bottom-0 after:left-0 after:my-[-5px] after:mx-0 after:h-0.5 after:w-0 after:bg-white after:duration-200 hover:after:w-3/4"
         >
           Works
         </a>
@@ -28,7 +28,7 @@ export default function Menu() {
       <li className="relative">
         <a
           href="#contacts"
-          className="outline-none duration-200 hover:opacity-70 focus:after:absolute focus:after:top-8 focus:after:block focus:after:h-0.5 focus:after:w-full focus:after:bg-white lg:focus:after:top-9 2xl:focus:after:top-11 2xl:focus:after:h-1"
+          className="relative outline-none after:absolute after:bottom-0 after:left-0 after:my-[-5px] after:mx-0 after:h-0.5 after:w-0 after:bg-white after:duration-200 hover:after:w-3/4"
         >
           Contacts
         </a>

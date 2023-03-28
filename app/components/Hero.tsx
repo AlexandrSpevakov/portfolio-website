@@ -2,7 +2,7 @@ import bg from '../../public/heroBg.png';
 
 export default function Hero() {
   return (
-    <section className="relative mx-auto h-screen w-10/12">
+    <section className="relative mx-auto h-screen w-10/12" id="home">
       <h2 className="pt-36 text-center text-6xl">Oleksandr Spievakov&apos;s</h2>
       <h1
         className="mx-auto w-fit bg-cover bg-center bg-no-repeat py-11 px-28 font-archivo text-9xl text-white"
