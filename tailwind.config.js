@@ -14,6 +14,9 @@ module.exports = {
         archivo: ['var(--font-archivo-black)'],
         roboto: ['var(--font-roboto)'],
       },
+      fontSize: {
+        '7.5xl': ['5.25rem', { lineHeight: '6rem' }],
+      },
     },
   },
   plugins: [],
