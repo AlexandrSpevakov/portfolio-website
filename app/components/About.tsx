@@ -1,7 +1,5 @@
-// import Image from 'next/image';
 import bg from '../../public/about.jpeg';
 import { skillsArr } from '../data/skills';
-// import { skillsImages } from '../data/skillsImages';
 
 export default function About() {
   return (
@@ -39,7 +37,6 @@ export default function About() {
         <ul className="mt-12 grid grid-cols-3 justify-items-center text-2xl">
           {skillsArr.map((skill, i) => (
             <div key={i} className="flex w-40 items-center py-3">
-              {/* <Image src={skillsImages[i]} alt={skill} className="w-10 mr-3" /> */}
               <li>{skill}</li>
             </div>
           ))}
