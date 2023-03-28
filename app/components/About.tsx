@@ -1,13 +1,14 @@
-import Image from 'next/image';
+// import Image from 'next/image';
 import bg from '../../public/about.jpeg';
 import { skillsArr } from '../data/skills';
+// import { skillsImages } from '../data/skillsImages';
 
 export default function About() {
   return (
     <section className="relative isolate text-white after:absolute after:inset-0 after:z-[-1] after:skew-y-[-6deg] after:bg-black">
       <section
         id="about"
-        className="relative mx-auto mt-24 w-10/12 bg-cover bg-center bg-no-repeat pt-28 pb-56"
+        className="relative mx-auto mt-32 w-10/12 bg-cover bg-center bg-no-repeat py-32"
       >
         <h2 className="text-center font-archivo text-7.5xl">
           About{' '}
@@ -32,13 +33,13 @@ export default function About() {
           playing hockey and a few other things, so feel free to contact me
           whether it&apos;s a job opportunity or just a regular chat.
         </p>
-        <h3 className="mt-32 text-center font-archivo text-6xl">
+        <h3 className="mt-36 text-center font-archivo text-6xl">
           Techical Skills
         </h3>
-        <ul className="grid grid-cols-3 justify-center justify-items-center text-xl">
+        <ul className="mt-12 grid grid-cols-3 justify-items-center text-2xl">
           {skillsArr.map((skill, i) => (
-            <div key={i}>
-              {/* <Image src={} /> */}
+            <div key={i} className="flex w-40 items-center py-3">
+              {/* <Image src={skillsImages[i]} alt={skill} className="w-10 mr-3" /> */}
               <li>{skill}</li>
             </div>
           ))}
