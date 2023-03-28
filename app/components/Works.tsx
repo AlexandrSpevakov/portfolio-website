@@ -8,7 +8,7 @@ import tours from '../../public/tours-work.webp';
 
 export default function Works() {
   return (
-    <section className="mx-auto w-10/12 pt-32 pb-64" id="works">
+    <section className="mx-auto w-10/12 py-32" id="works">
       <h2 className="mb-24 text-center font-archivo text-7.5xl">Works</h2>
       <article className="work-card mx-auto w-9/12 rounded bg-black px-10 pt-10 pb-12 text-white duration-300">
         <Image
