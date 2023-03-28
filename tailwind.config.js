@@ -17,6 +17,11 @@ module.exports = {
       fontSize: {
         '7.5xl': ['5.25rem', { lineHeight: '6rem' }],
       },
+      saturate: {
+        120: '1.20',
+        125: '1.25',
+        135: '1.35',
+      },
     },
   },
   plugins: [],
