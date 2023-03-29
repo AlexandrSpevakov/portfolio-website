@@ -15,6 +15,7 @@ module.exports = {
         roboto: ['var(--font-roboto)'],
       },
       fontSize: {
+        '6.5xl': ['66px'],
         '7.5xl': ['5.25rem', { lineHeight: '6rem' }],
         '8.5xl': ['7rem'],
         '11xl': [
