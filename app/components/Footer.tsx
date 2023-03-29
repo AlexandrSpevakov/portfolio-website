@@ -1,11 +1,10 @@
 export default function Footer() {
   return (
-    <section className=" bg-black text-white">
-      <footer
-        id="about"
-        className="relative mx-auto w-10/12 bg-cover bg-center bg-no-repeat"
-      >
-        <h2 className="text-center font-archivo text-7.5xl">Footer</h2>
+    <section className="mt-[139px] bg-black pb-12 text-white">
+      <footer className="relative mx-auto w-10/12 bg-cover bg-center bg-no-repeat">
+        <span className="block text-center font-archivo">
+          &copy; Oleksandr Spievakov 2023
+        </span>
       </footer>
     </section>
   );
