@@ -22,6 +22,11 @@ module.exports = {
         125: '1.25',
         135: '1.35',
       },
+      screens: {
+        xs: '400px',
+        sm: '576px',
+        '3xs': '2000px',
+      },
     },
   },
   plugins: [],

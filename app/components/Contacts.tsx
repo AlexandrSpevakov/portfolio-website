@@ -3,11 +3,11 @@ export default function Contacts() {
     <section className="relative isolate text-white before:absolute before:inset-0 before:z-[-1] before:skew-y-[-6deg] before:bg-black after:absolute after:left-0 after:bottom-[-140px] after:z-[-1] after:h-full after:w-full after:bg-black">
       <section
         id="contacts"
-        className="relative mx-auto mt-32 w-10/12 bg-cover bg-center bg-no-repeat py-32"
+        className="relative mx-auto mt-32 w-10/12 bg-cover bg-center bg-no-repeat pt-32 pb-16"
       >
         <h2 className="text-center font-archivo text-7.5xl">Contacts</h2>
 
-        <section className="mt-20 grid grid-cols-3 gap-x-10">
+        <section className="mt-16 grid grid-cols-3 gap-x-10">
           <a
             href="mailto:spievakov@gmail.com"
             className="block border-4 border-white py-4 px-6 duration-300 hover:bg-white hover:text-black"
