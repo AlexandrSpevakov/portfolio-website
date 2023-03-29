@@ -16,6 +16,15 @@ module.exports = {
       },
       fontSize: {
         '7.5xl': ['5.25rem', { lineHeight: '6rem' }],
+        '11xl': [
+          '11rem',
+          {
+            lineHeight: '1',
+          },
+        ],
+      },
+      spacing: {
+        '8.3/10': '83%',
       },
       saturate: {
         120: '1.20',
@@ -25,7 +34,7 @@ module.exports = {
       screens: {
         xs: '400px',
         sm: '576px',
-        '3xs': '2000px',
+        '3xl': '2000px',
       },
     },
   },
