@@ -29,10 +29,10 @@ export default function Works() {
           Interacts with Local Storage and saves your orders and settings.
         </p>
 
-        <p className="mt-8 text-lg">
-          <span className="mr-1 text-xl font-bold">Tech Stack:</span> React,
+        <p className="mt-8 text-xl font-bold">
+          <span className="mr-1 text-2xl font-normal">Tech Stack:</span> React,
           TypeScript, Redux Toolkit, Jest, Testing Library, Cypress, Styled
-          Components, RTK Query, React Router, ESLint, Prettier.
+          Components, RTK Query, React Router, ESLint, Prettier
         </p>
 
         <div className="mt-16 flex justify-center gap-40">
@@ -76,9 +76,9 @@ export default function Works() {
           general information about the order of things in Westeros.
         </p>
 
-        <p className="mt-8 text-lg">
-          <span className="mr-1 text-xl font-bold">Tech Stack:</span> React,
-          Next.js, TypeScript, Tailwind, ESLint, Prettier.
+        <p className="mt-8 text-xl font-bold">
+          <span className="mr-1 text-2xl font-normal">Tech Stack:</span> React,
+          Next.js, TypeScript, Tailwind, ESLint, Prettier
         </p>
 
         <div className="mt-16 flex justify-center gap-40">
@@ -119,9 +119,9 @@ export default function Works() {
           increase their life span after your purchases.
         </p>
 
-        <p className="mt-8 text-lg">
-          <span className="mr-1 text-xl font-bold">Tech Stack:</span>{' '}
-          JavaScript, HTML, CSS, SCSS, BEM.
+        <p className="mt-8 text-xl font-bold">
+          <span className="mr-1 text-2xl font-normal">Tech Stack:</span>{' '}
+          JavaScript, HTML, CSS, SCSS, BEM
         </p>
 
         <div className="mt-16 flex justify-center gap-40">
@@ -164,9 +164,9 @@ export default function Works() {
           projects, and I&apos;m already preparing the translated version :&#41;
         </p>
 
-        <p className="mt-8 text-lg">
-          <span className="mr-1 text-xl font-bold">Tech Stack:</span> HTMl, CSS,
-          JavaScript, Gulp.js, SCSS, PostCSS, BEM.
+        <p className="mt-8 text-xl font-bold">
+          <span className="mr-1 text-2xl font-normal">Tech Stack:</span> HTML,
+          CSS, JavaScript, Gulp.js, SCSS, PostCSS, BEM
         </p>
 
         <div className="mt-16 flex justify-center gap-40">
@@ -207,9 +207,9 @@ export default function Works() {
           can make a preorder, often with a discounted price.
         </p>
 
-        <p className="mt-8 text-lg">
-          <span className="mr-1 text-xl font-bold">Tech Stack:</span>{' '}
-          JavaScript, HTML, CSS, SCSS.
+        <p className="mt-8 text-xl font-bold">
+          <span className="mr-1 text-2xl font-normal">Tech Stack:</span>{' '}
+          JavaScript, HTML, CSS, SCSS
         </p>
 
         <div className="mt-16 flex justify-center gap-40">
