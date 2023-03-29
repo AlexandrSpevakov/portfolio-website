@@ -28,6 +28,9 @@ module.exports = {
       spacing: {
         '8.3/10': '83%',
       },
+      borderWidth: {
+        6: '6px',
+      },
       saturate: {
         120: '1.20',
         125: '1.25',
