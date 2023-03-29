@@ -16,6 +16,7 @@ module.exports = {
       },
       fontSize: {
         '7.5xl': ['5.25rem', { lineHeight: '6rem' }],
+        '8.5xl': ['7rem'],
         '11xl': [
           '11rem',
           {

@@ -14,12 +14,14 @@ export default function Hero() {
       >
         Portfolio
       </h1>
+
       <a
         href="#works"
         className="relative mx-auto mt-12 block w-fit rounded-sm border-[6px] border-black py-3 px-4 text-3xl font-bold duration-300 after:absolute after:top-0 after:left-0 after:z-[-1] after:h-full after:w-full after:scale-[0.1] after:duration-300 hover:text-white hover:after:scale-100 hover:after:bg-black 3xl:mt-14 3xl:border-8 3xl:py-4 3xl:px-6 3xl:text-4xl "
       >
         View My Work
       </a>
+
       <a
         href="#about"
         className="group absolute top-8.3/10 right-1/2 block w-fit translate-x-1/2"
