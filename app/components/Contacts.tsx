@@ -3,13 +3,13 @@ export default function Contacts() {
     <section className="relative isolate text-white before:absolute before:inset-0 before:z-[-1] before:skew-y-[-6deg] before:bg-black after:absolute after:left-0 after:bottom-[-140px] after:z-[-1] after:h-full after:w-full after:bg-black">
       <section
         id="contacts"
-        className="relative mx-auto mt-32 w-10/12 bg-cover bg-center bg-no-repeat pt-32 pb-16 2xl:mt-36 2xl:pt-36 2xl:pb-20 3xl:mt-40 3xl:pt-40 3xl:pb-24"
+        className="relative mx-auto w-10/12 bg-cover bg-center bg-no-repeat md:mt-24 md:pt-24 md:pb-12 lg:mt-28 lg:pt-28 lg:pb-14 xl:mt-32 xl:pt-32 xl:pb-16 2xl:mt-36 2xl:pt-36 2xl:pb-20 3xl:mt-40 3xl:pt-40 3xl:pb-24"
       >
-        <h2 className="text-center font-archivo text-7.5xl 2xl:text-8xl 3xl:text-8.5xl">
+        <h2 className="text-center font-archivo md:xl:text-6xl lg:xl:text-7xl xl:text-7.5xl 2xl:text-8xl 3xl:text-8.5xl">
           Contacts
         </h2>
 
-        <section className="mt-16 grid grid-cols-3 gap-x-10 2xl:mt-20 2xl:gap-x-14 3xl:mt-24 3xl:gap-x-20">
+        <section className="grid grid-cols-3 md:mt-12 md:gap-x-10 lg:mt-14 lg:gap-x-12 xl:mt-16 xl:gap-x-14 2xl:mt-20 2xl:gap-x-16 3xl:mt-24 3xl:gap-x-20">
           <a
             href="mailto:spievakov@gmail.com"
             className="block border-4 border-white py-4 px-6 duration-300 hover:bg-white hover:text-black 2xl:py-5 2xl:px-8 3xl:border-6 3xl:py-6 3xl:px-10"
