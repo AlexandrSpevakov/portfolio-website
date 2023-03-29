@@ -12,7 +12,7 @@ export default function Logo() {
       <Image
         src={logo}
         alt="Logo"
-        className="w-48 sm:w-52 md:w-56 lg:w-60 2xl:w-64 3xl:w-72"
+        className="w-48 sm:w-52 md:w-56 lg:w-64 2xl:w-72 3xl:w-80"
       />
     </Link>
   );
