@@ -1,6 +1,6 @@
 export default function Menu() {
   return (
-    <ul className="hidden gap-x-5 text-xl md:flex lg:gap-x-8 lg:text-2xl 2xl:gap-x-12 2xl:text-3xl">
+    <ul className="hidden gap-x-5 text-xl md:flex lg:text-2xl xl:gap-x-12 2xl:gap-x-14 3xl:gap-x-16 3xl:text-3xl">
       <li className="relative">
         <a
           href="#home"
