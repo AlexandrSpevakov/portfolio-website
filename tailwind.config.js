@@ -27,6 +27,7 @@ module.exports = {
         ],
       },
       spacing: {
+        '7/10': '70%',
         '8.3/10': '83%',
       },
       borderWidth: {

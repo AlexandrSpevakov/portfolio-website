@@ -16,7 +16,7 @@ export default function Works() {
         Works
       </h2>
 
-      <article className="work-card mx-auto w-9/12 rounded bg-black text-white duration-300 lg:px-8 lg:pt-8 lg:pb-10 xl:px-10 xl:pt-10 xl:pb-12 2xl:w-3/5 2xl:px-12 2xl:pt-12 2xl:pb-14 3xl:w-8/12 3xl:px-14 3xl:pt-14 3xl:pb-16">
+      <article className="work-card mx-auto w-9/12 rounded bg-black text-white duration-300 lg:px-8 lg:pt-8 lg:pb-10 xl:px-10 xl:pt-10 xl:pb-12 2xl:w-7/10 2xl:px-12 2xl:pt-12 2xl:pb-14 3xl:w-8/12 3xl:px-14 3xl:pt-14 3xl:pb-16">
         <Image
           src={pizza}
           alt="Pizza App"
@@ -66,7 +66,7 @@ export default function Works() {
         </div>
       </article>
 
-      <article className="work-card mx-auto mt-28 w-9/12 rounded bg-black text-white duration-300 lg:px-8 lg:pt-8 lg:pb-10 xl:px-10 xl:pt-10 xl:pb-12 2xl:mt-32 2xl:w-3/5 2xl:px-12 2xl:pt-12 2xl:pb-14 3xl:mt-36 3xl:w-8/12 3xl:px-14 3xl:pt-14 3xl:pb-16">
+      <article className="work-card mx-auto w-9/12 rounded bg-black text-white duration-300 md:mt-20 lg:mt-24 lg:px-8 lg:pt-8 lg:pb-10 xl:mt-28 xl:px-10 xl:pt-10 xl:pb-12 2xl:mt-32 2xl:w-7/10 2xl:px-12 2xl:pt-12 2xl:pb-14 3xl:mt-36 3xl:w-8/12 3xl:px-14 3xl:pt-14 3xl:pb-16">
         <Image
           src={got}
           alt="Game of Thrones Wiki"
@@ -114,7 +114,7 @@ export default function Works() {
         </div>
       </article>
 
-      <article className="work-card mx-auto mt-28 w-9/12 rounded bg-black text-white duration-300 lg:px-8 lg:pt-8 lg:pb-10 xl:px-10 xl:pt-10 xl:pb-12 2xl:mt-32 2xl:w-3/5 2xl:px-12 2xl:pt-12 2xl:pb-14 3xl:mt-36 3xl:w-8/12 3xl:px-14 3xl:pt-14 3xl:pb-16">
+      <article className="work-card mx-auto w-9/12 rounded bg-black text-white duration-300 md:mt-20 lg:mt-24 lg:px-8 lg:pt-8 lg:pb-10 xl:mt-28 xl:px-10 xl:pt-10 xl:pb-12 2xl:mt-32 2xl:w-7/10 2xl:px-12 2xl:pt-12 2xl:pb-14 3xl:mt-36 3xl:w-8/12 3xl:px-14 3xl:pt-14 3xl:pb-16">
         <Image
           src={plants}
           alt="Plants Shop"
@@ -161,7 +161,7 @@ export default function Works() {
         </div>
       </article>
 
-      <article className="work-card mx-auto mt-28 w-9/12 rounded bg-black text-white duration-300 lg:px-8 lg:pt-8 lg:pb-10 xl:px-10 xl:pt-10 xl:pb-12 2xl:mt-32 2xl:w-3/5 2xl:px-12 2xl:pt-12 2xl:pb-14 3xl:mt-36 3xl:w-8/12 3xl:px-14 3xl:pt-14 3xl:pb-16">
+      <article className="work-card mx-auto w-9/12 rounded bg-black text-white duration-300 md:mt-20 lg:mt-24 lg:px-8 lg:pt-8 lg:pb-10 xl:mt-28 xl:px-10 xl:pt-10 xl:pb-12 2xl:mt-32 2xl:w-7/10 2xl:px-12 2xl:pt-12 2xl:pb-14 3xl:mt-36 3xl:w-8/12 3xl:px-14 3xl:pt-14 3xl:pb-16">
         <Image
           src={restaurant}
           alt="Restaurant Website"
@@ -208,7 +208,7 @@ export default function Works() {
         </div>
       </article>
 
-      <article className="work-card mx-auto mt-28 w-9/12 rounded bg-black text-white duration-300 lg:px-8 lg:pt-8 lg:pb-10 xl:px-10 xl:pt-10 xl:pb-12 2xl:mt-32 2xl:w-3/5 2xl:px-12 2xl:pt-12 2xl:pb-14 3xl:mt-36 3xl:w-8/12 3xl:px-14 3xl:pt-14 3xl:pb-16">
+      <article className="work-card mx-auto w-9/12 rounded bg-black text-white duration-300 md:mt-20 lg:mt-24 lg:px-8 lg:pt-8 lg:pb-10 xl:mt-28 xl:px-10 xl:pt-10 xl:pb-12 2xl:mt-32 2xl:w-7/10 2xl:px-12 2xl:pt-12 2xl:pb-14 3xl:mt-36 3xl:w-8/12 3xl:px-14 3xl:pt-14 3xl:pb-16">
         <Image
           src={tours}
           alt="Tours Website"
