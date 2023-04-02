@@ -3,11 +3,11 @@ import bg from '../../public/heroBg.png';
 export default function Hero() {
   return (
     <section className="relative mx-auto h-screen w-10/12" id="home">
-      <h2 className="pt-36 text-center text-6xl 2xl:pt-40 2xl:text-6.5xl 3xl:pt-44 3xl:text-7xl">
+      <h2 className="text-center md:pt-28 lg:pt-32 lg:text-5xl xl:pt-36 xl:text-6xl 2xl:pt-40 2xl:text-6.5xl 3xl:pt-44 3xl:text-7xl">
         Oleksandr Spievakov&apos;s
       </h2>
       <h1
-        className="mx-auto w-fit bg-cover bg-center bg-no-repeat py-11 px-28 font-archivo text-9xl text-white 2xl:py-12 2xl:text-10xl 3xl:py-14 3xl:text-11xl"
+        className="mx-auto w-fit bg-cover bg-center bg-no-repeat font-archivo text-white lg:text-8xl xl:py-11 xl:px-28 xl:text-9xl 2xl:py-12 2xl:text-10xl 3xl:py-14 3xl:text-11xl"
         style={{
           backgroundImage: `url(${bg.src})`,
         }}
