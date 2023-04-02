@@ -32,7 +32,7 @@ export default function RootLayout({
       <body className="font-roboto">
         <Header />
         {children}
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );
