@@ -1,12 +1,12 @@
-import { Archivo_Black, Roboto } from 'next/font/google';
+import { Montserrat, Roboto } from 'next/font/google';
 // import Footer from './components/Footer';
 
 import Header from './components/Header';
 import './globals.css';
 
-const archivoBlack = Archivo_Black({
-  weight: '400',
-  variable: '--font-archivo-black',
+const montserrat = Montserrat({
+  weight: ['400', '600'],
+  variable: '--font-montserrat',
 });
 
 const roboto = Roboto({
@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${archivoBlack.variable} ${roboto.variable} scroll-smooth`}
+      className={`${montserrat.variable} ${roboto.variable} scroll-smooth`}
     >
       <body className="font-roboto">
         <Header />

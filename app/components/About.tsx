@@ -8,7 +8,7 @@ export default function About() {
         id="about"
         className="relative mx-auto w-10/12 bg-cover bg-center bg-no-repeat md:mt-24 md:py-24 lg:mt-28 lg:py-28 xl:mt-32 xl:py-32 2xl:mt-36 2xl:py-36 3xl:mt-40 3xl:py-40"
       >
-        <h2 className="text-center font-archivo md:xl:text-6xl lg:xl:text-7xl xl:text-7.5xl 2xl:text-8xl 3xl:text-8.5xl">
+        <h2 className="text-center font-montserrat md:xl:text-6xl lg:xl:text-7xl xl:text-7.5xl 2xl:text-8xl 3xl:text-8.5xl">
           About{' '}
           <span
             className="bg-cover bg-center bg-no-repeat py-4 px-8 3xl:px-10"
@@ -34,7 +34,7 @@ export default function About() {
           whether it&apos;s a job opportunity or just a regular chat.
         </p>
 
-        <h3 className="text-center font-archivo md:mt-32 md:text-4xl lg:mt-36 lg:text-5xl xl:mt-40 xl:text-6xl 2xl:mt-44 2xl:text-7xl 3xl:mt-48 3xl:text-7.5xl">
+        <h3 className="text-center font-montserrat md:mt-32 md:text-4xl lg:mt-36 lg:text-5xl xl:mt-40 xl:text-6xl 2xl:mt-44 2xl:text-7xl 3xl:mt-48 3xl:text-7.5xl">
           Techical Skills
         </h3>
 

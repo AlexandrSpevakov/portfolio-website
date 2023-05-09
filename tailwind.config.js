@@ -11,7 +11,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        archivo: ['var(--font-archivo-black)'],
+        montserrat: ['var(--font-montserrat)'],
         roboto: ['var(--font-roboto)'],
       },
       fontSize: {

@@ -7,7 +7,7 @@ export default function Hero() {
         Oleksandr Spievakov&apos;s
       </h2>
       <h1
-        className="mx-auto w-fit bg-cover bg-center bg-no-repeat font-archivo text-white lg:text-8xl xl:py-11 xl:px-28 xl:text-9xl 2xl:py-12 2xl:text-10xl 3xl:py-14 3xl:text-11xl"
+        className="mx-auto w-fit bg-cover bg-center bg-no-repeat font-montserrat text-white lg:text-8xl xl:py-11 xl:px-28 xl:text-9xl 2xl:py-12 2xl:text-10xl 3xl:py-14 3xl:text-11xl"
         style={{
           backgroundImage: `url(${bg.src})`,
         }}
