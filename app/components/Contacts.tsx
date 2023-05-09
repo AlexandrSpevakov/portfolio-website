@@ -36,7 +36,7 @@ export default function Contacts() {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/oleksandr-spievakov/"
+            href="https://www.linkedin.com/in/sasha-spievakov/"
             className="block border-4 border-white py-4 px-6 duration-300 hover:bg-white hover:text-black 2xl:py-5 2xl:px-8 3xl:border-6 3xl:py-6 3xl:px-10"
             target="_blank"
             rel="noreferrer"
