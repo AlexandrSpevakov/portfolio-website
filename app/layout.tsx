@@ -1,7 +1,5 @@
 import { Montserrat, Roboto } from 'next/font/google';
-// import Footer from './components/Footer';
 
-import Header from './components/Header';
 import './globals.css';
 
 const montserrat = Montserrat({
@@ -29,11 +27,7 @@ export default function RootLayout({
       lang="en"
       className={`${montserrat.variable} ${roboto.variable} scroll-smooth`}
     >
-      <body className="font-roboto">
-        <Header />
-        {children}
-        {/* <Footer /> */}
-      </body>
+      <body className="font-roboto">{children}</body>
     </html>
   );
 }
