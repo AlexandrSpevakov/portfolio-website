@@ -16,15 +16,8 @@ module.exports = {
       },
       fontSize: {
         '6.5xl': ['66px'],
-        '7.5xl': ['5.25rem', { lineHeight: '6rem' }],
-        '8.5xl': ['7rem'],
+        '7.5xl': ['5rem', { lineHeight: '6rem' }],
         '10xl': ['9.5rem'],
-        '11xl': [
-          '11rem',
-          {
-            lineHeight: '1',
-          },
-        ],
       },
       spacing: {
         '7/10': '70%',
