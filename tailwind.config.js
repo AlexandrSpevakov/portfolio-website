@@ -55,6 +55,9 @@ module.exports = {
       boxShadow: {
         '3xl': '0px 8px 40px 4px rgb(0 0 0 / 20%)',
       },
+      lineHeight: {
+        'extra-tight': '1.3',
+      },
     },
   },
   plugins: [],
