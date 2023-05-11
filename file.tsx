@@ -11,11 +11,11 @@ export default function Works() {
     <section className="mx-auto max-w-screen-xl px-10 md:pt-32">
       <article className="relative h-screen">
         <section className="relative z-10">
-          <h3 className="pt-16 font-montserrat text-5xl font-semibold">
+          <h3 className="pt-16 font-montserrat text-4.5xl font-semibold">
             Crust & Co.
           </h3>
 
-          <p className="mt-4 w-2/6 text-xl font-medium leading-8 text-neutral-500">
+          <p className="mt-2 w-2/6 text-xl font-medium leading-8 text-neutral-500">
             An innovative online pizza store offering a mouthwatering selection
             of handcrafted pizzas with a seamless ordering experience.
           </p>
@@ -31,16 +31,16 @@ export default function Works() {
             href="https://pizza-store-application.netlify.app/"
             target="_blank"
             rel="noreferrer"
-            className="relative mt-12 block w-fit py-1 pr-2 align-bottom text-2xl font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-pizza before:px-4 before:duration-500 hover:before:h-5/6"
+            className="relative mt-12 block w-fit py-1 pr-2 align-bottom text-xl font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-pizza before:px-4 before:duration-500 hover:before:h-5/6"
           >
             View Project
           </a>
 
           <a
-            href="https://github.com/SashaSpevakov/pizza-app"
+            href="https://github.com/SashaSpievakov/pizza-app"
             target="_blank"
             rel="noreferrer"
-            className="relative mt-4 block w-fit py-1 pr-2 align-bottom text-2xl font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-pizza before:px-4 before:duration-500 hover:before:h-5/6"
+            className="relative mt-4 block w-fit py-1 pr-2 align-bottom text-xl font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-pizza before:px-4 before:duration-500 hover:before:h-5/6"
           >
             Source Code
           </a>
@@ -60,11 +60,11 @@ export default function Works() {
 
       <article className="relative h-screen">
         <section className="relative z-10">
-          <h3 className="pt-16 font-montserrat text-5xl font-semibold">
+          <h3 className="pt-16 font-montserrat text-4.5xl font-semibold">
             GOT Explorer
           </h3>
 
-          <p className="mt-4 w-2/6 text-xl font-medium leading-8 text-neutral-500">
+          <p className="mt-2 w-2/6 text-xl font-medium leading-8 text-neutral-500">
             Wikipedia about the Game of Thrones TV series based on George
             Martin&apos;s fantasy novel &quot;A Song of Ice and Fire&quot;.
           </p>
@@ -80,22 +80,22 @@ export default function Works() {
             href="https://got-explorer.vercel.app/"
             target="_blank"
             rel="noreferrer"
-            className="relative mt-12 block w-fit py-1 pr-2 align-bottom text-2xl font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-pizza before:px-4 before:duration-500 hover:before:h-5/6"
+            className="relative mt-12 block w-fit py-1 pr-2 align-bottom text-xl font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-got before:px-4 before:duration-500 hover:before:h-5/6"
           >
             View Project
           </a>
 
           <a
-            href="https://github.com/AlexandrSpevakov/got-explorer"
+            href="https://github.com/SashaSpievakov/got-explorer"
             target="_blank"
             rel="noreferrer"
-            className="relative mt-4 block w-fit py-1 pr-2 align-bottom text-2xl font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-pizza before:px-4 before:duration-500 hover:before:h-5/6"
+            className="relative mt-4 block w-fit py-1 pr-2 align-bottom text-xl font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-got before:px-4 before:duration-500 hover:before:h-5/6"
           >
             Source Code
           </a>
         </section>
 
-        <section className="absolute right-0 top-0 w-9/12 bg-pizza md:py-16 md:pr-12 md:pl-32">
+        <section className="absolute right-0 top-0 w-9/12 bg-got md:py-16 md:pr-12 md:pl-32">
           <div className="shadow-3xl">
             <div className="flex h-6 rounded-t-md bg-tab py-2.75 px-2.5">
               <span className="mr-2 block h-2.5 w-2.5 rounded-[50%] bg-red-25" />
@@ -252,3 +252,81 @@ export default function Works() {
     </section>
   );
 }
+
+==============================
+
+export default function Hero() {
+  return (
+    <section className="relative mx-auto h-96 max-w-screen-xl px-10" id="home">
+      <h1 className="mt-32 font-montserrat font-semibold leading-loose md:text-7.5xl">
+        Sasha Spievakov <br /> — Software Engineer
+      </h1>
+    </section>
+  );
+}
+
+=============================
+
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    './app/**/*.{js,ts,jsx,tsx}', // Note the addition of the `app` directory.
+    './pages/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}',
+
+    // Or if using `src` directory:
+    './src/**/*.{js,ts,jsx,tsx}',
+  ],
+  theme: {
+    extend: {
+      fontFamily: {
+        montserrat: ['var(--font-montserrat)'],
+        roboto: ['var(--font-roboto)'],
+      },
+      fontSize: {
+        '4.5xl': ['40px'],
+        '6.5xl': ['66px'],
+        '7.5xl': ['5rem', { lineHeight: '6rem' }],
+        '10xl': ['9.5rem'],
+      },
+      spacing: {
+        '7/10': '70%',
+        '8.3/10': '83%',
+        2.75: '7px',
+      },
+      borderWidth: {
+        6: '6px',
+      },
+      saturate: {
+        120: '1.20',
+        125: '1.25',
+        135: '1.35',
+      },
+      screens: {
+        xs: '400px',
+        sm: '576px',
+        '3xl': '2000px',
+      },
+      colors: {
+        pizza: '#e4d9ce',
+        got: '#dfd9d2',
+        tab: '#26282a',
+        // tab2: '#dfdfdf',
+        red: {
+          25: '#fd615d',
+        },
+        yellow: {
+          25: '#febc40',
+        },
+        green: {
+          25: '#35c94a',
+        },
+      },
+      boxShadow: {
+        '3xl': '0px 8px 40px 4px rgb(0 0 0 / 20%)',
+      },
+    },
+  },
+  plugins: [],
+};
+

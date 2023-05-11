@@ -22,6 +22,7 @@ module.exports = {
       spacing: {
         '7/10': '70%',
         '8.3/10': '83%',
+        2.75: '7px',
       },
       borderWidth: {
         6: '6px',
@@ -35,6 +36,23 @@ module.exports = {
         xs: '400px',
         sm: '576px',
         '3xl': '2000px',
+      },
+      colors: {
+        pizza: '#e4d9ce',
+        got: '#ffb066',
+        tab: '#26282a',
+        red: {
+          25: '#fd615d',
+        },
+        yellow: {
+          25: '#febc40',
+        },
+        green: {
+          25: '#35c94a',
+        },
+      },
+      boxShadow: {
+        '3xl': '0px 8px 40px 4px rgb(0 0 0 / 20%)',
       },
     },
   },
