@@ -8,22 +8,15 @@ import tours from '../../public/tours-work.webp';
 
 export default function Works() {
   return (
-    <section
-      className="mx-auto w-10/12 md:pt-24 md:pb-12 lg:pt-28 lg:pb-14 xl:pt-32 xl:pb-16 2xl:pb-20 2xl:pt-36 3xl:pb-24 3xl:pt-40"
-      id="works"
-    >
-      <h2 className="text-center font-archivo md:xl:text-6xl lg:xl:text-7xl xl:mb-8 xl:text-7.5xl 2xl:mb-10 2xl:text-8xl 3xl:mb-12 3xl:text-8.5xl">
-        Works
-      </h2>
-
-      <article className="work-card mx-auto w-9/12 rounded bg-black text-white duration-300 lg:px-8 lg:pt-8 lg:pb-10 xl:px-10 xl:pt-10 xl:pb-12 2xl:w-7/10 2xl:px-12 2xl:pt-12 2xl:pb-14 3xl:w-8/12 3xl:px-14 3xl:pt-14 3xl:pb-16">
+    <section className="mx-auto w-10/12 md:pt-32">
+      <article className="w-9/12 bg-red-200 text-white duration-300 md:py-16 md:px-24 lg:px-32">
         <Image
           src={pizza}
           alt="Pizza App"
           className="block rounded border-2 border-zinc-900 saturate-120"
         />
 
-        <h3 className="text-center font-archivo lg:mt-8 xl:mt-10 xl:text-6xl 2xl:mt-12 2xl:text-6.5xl 3xl:mt-14 3xl:text-7xl">
+        {/* <h3 className="text-center font-archivo lg:mt-8 xl:mt-10 xl:text-6xl 2xl:mt-12 2xl:text-6.5xl 3xl:mt-14 3xl:text-7xl">
           Pizza App
         </h3>
 
@@ -63,7 +56,7 @@ export default function Works() {
           >
             Code
           </a>
-        </div>
+        </div> */}
       </article>
 
       <article className="work-card mx-auto w-9/12 rounded bg-black text-white duration-300 md:mt-20 lg:mt-24 lg:px-8 lg:pt-8 lg:pb-10 xl:mt-28 xl:px-10 xl:pt-10 xl:pb-12 2xl:mt-32 2xl:w-7/10 2xl:px-12 2xl:pt-12 2xl:pb-14 3xl:mt-36 3xl:w-8/12 3xl:px-14 3xl:pt-14 3xl:pb-16">
