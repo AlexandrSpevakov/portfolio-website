@@ -9,26 +9,25 @@ import tours from '../../public/tours-work.webp';
 export default function Works() {
   return (
     <section className="mx-auto w-10/12 md:pt-32">
-      <article className="w-9/12 bg-red-200 text-white duration-300 md:py-16 md:px-24 lg:px-32">
-        <Image
-          src={pizza}
-          alt="Pizza App"
-          className="block rounded border-2 border-zinc-900 saturate-120"
-        />
+      <article className="relative h-screen">
+        <section className="relative z-10">
+          <h3 className="pt-24 font-montserrat text-5xl font-semibold">
+            Crust & Co.
+          </h3>
 
-        {/* <h3 className="text-center font-archivo lg:mt-8 xl:mt-10 xl:text-6xl 2xl:mt-12 2xl:text-6.5xl 3xl:mt-14 3xl:text-7xl">
-          Pizza App
-        </h3>
+          <p className="mt-6 w-2/4 text-2xl font-medium text-neutral-500">
+            An innovative online pizza store offering a mouthwatering selection
+            of handcrafted pizzas with a seamless ordering experience.
+          </p>
+        </section>
+        <section className="absolute right-0 top-0 h-60 w-9/12 bg-red-200 md:py-16 md:px-24">
+          <Image
+            src={pizza}
+            alt="Pizza App"
+            className="drop-shadow-2xl saturate-120"
+          />
 
-        <p className="lg:mt-3 xl:mt-4 xl:text-lg 2xl:mt-5 2xl:text-xl 3xl:mt-6 3xl:text-2xl">
-          Web Store Application created with React includes multiple pages and
-          SPA support. States were managed with Redux Toolkit, and styles were
-          implemented with Styled Components. Entirely written in TypeScript,
-          code styling was configured with ESLint and Airbnb settings. Covered
-          by all kinds of tests, such as unit, integration and e2e tests. The
-          website has a responsive design, so looks good on all devices.
-          Interacts with Local Storage and saves your orders and settings.
-        </p>
+          {/*
 
         <p className="font-bold md:mt-6 lg:mt-7 lg:text-lg xl:mt-8 xl:text-xl 2xl:mt-9 2xl:text-2xl 3xl:mt-10 3xl:text-3xl">
           <span className="mr-1 font-normal lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-4xl">
@@ -57,9 +56,10 @@ export default function Works() {
             Code
           </a>
         </div> */}
+        </section>
       </article>
 
-      <article className="work-card mx-auto w-9/12 rounded bg-black text-white duration-300 md:mt-20 lg:mt-24 lg:px-8 lg:pt-8 lg:pb-10 xl:mt-28 xl:px-10 xl:pt-10 xl:pb-12 2xl:mt-32 2xl:w-7/10 2xl:px-12 2xl:pt-12 2xl:pb-14 3xl:mt-36 3xl:w-8/12 3xl:px-14 3xl:pt-14 3xl:pb-16">
+      <article className="work-card mx-auto w-9/12 rounded bg-black text-white duration-300 md:mt-20 lg:mt-24 lg:px-8 lg:pt-8 lg:pb-10 xl:mt-96 xl:px-10 xl:pt-10 xl:pb-12 2xl:mt-32 2xl:w-7/10 2xl:px-12 2xl:pt-12 2xl:pb-14 3xl:mt-36 3xl:w-8/12 3xl:px-14 3xl:pt-14 3xl:pb-16">
         <Image
           src={got}
           alt="Game of Thrones Wiki"
