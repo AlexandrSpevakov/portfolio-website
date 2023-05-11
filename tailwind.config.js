@@ -15,6 +15,7 @@ module.exports = {
         roboto: ['var(--font-roboto)'],
       },
       fontSize: {
+        '4.5xl': ['40px'],
         '6.5xl': ['66px'],
         '7.5xl': ['5rem', { lineHeight: '6rem' }],
         '10xl': ['9.5rem'],
@@ -39,7 +40,7 @@ module.exports = {
       },
       colors: {
         pizza: '#e4d9ce',
-        got: '#ffb066',
+        got: '#dfd7d2',
         tab: '#26282a',
         red: {
           25: '#fd615d',

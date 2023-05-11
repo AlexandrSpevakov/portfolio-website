@@ -8,14 +8,14 @@ import tours from '../../public/tours-work.webp';
 
 export default function Works() {
   return (
-    <section className="mx-auto max-w-screen-xl px-10 md:pt-32">
-      <article className="relative h-screen">
+    <section className="mx-auto max-w-screen-xl px-10 pt-24">
+      <article className="relative pb-60">
         <section className="relative z-10">
-          <h3 className="pt-16 font-montserrat text-5xl font-semibold">
+          <h3 className="pt-16 font-montserrat text-4.5xl font-semibold">
             Crust & Co.
           </h3>
 
-          <p className="mt-4 w-2/6 text-xl font-medium leading-8 text-neutral-500">
+          <p className="mt-2 w-2/6 text-xl font-medium leading-8 text-neutral-500">
             An innovative online pizza store offering a mouthwatering selection
             of handcrafted pizzas with a seamless ordering experience.
           </p>
@@ -31,7 +31,7 @@ export default function Works() {
             href="https://pizza-store-application.netlify.app/"
             target="_blank"
             rel="noreferrer"
-            className="relative mt-12 block w-fit py-1 pr-2 align-bottom text-2xl font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-pizza before:px-4 before:duration-500 hover:before:h-5/6"
+            className="relative mt-12 block w-fit py-1 pr-2 align-bottom text-xl font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-pizza before:px-4 before:duration-500 hover:before:h-5/6"
           >
             View Project
           </a>
@@ -40,7 +40,7 @@ export default function Works() {
             href="https://github.com/SashaSpevakov/pizza-app"
             target="_blank"
             rel="noreferrer"
-            className="relative mt-4 block w-fit py-1 pr-2 align-bottom text-2xl font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-pizza before:px-4 before:duration-500 hover:before:h-5/6"
+            className="relative mt-4 block w-fit py-1 pr-2 align-bottom text-xl font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-pizza before:px-4 before:duration-500 hover:before:h-5/6"
           >
             Source Code
           </a>
@@ -53,18 +53,19 @@ export default function Works() {
               <span className="mr-2 block h-2.5 w-2.5 rounded-[50%] bg-yellow-25" />
               <span className="mr-2 block h-2.5 w-2.5 rounded-[50%] bg-green-25" />
             </div>
+
             <Image src={pizza} alt="Pizza App" className="saturate-120" />
           </div>
         </section>
       </article>
 
-      <article className="relative h-screen">
+      <article className="relative pb-60">
         <section className="relative z-10">
-          <h3 className="pt-16 font-montserrat text-5xl font-semibold">
+          <h3 className="pt-16 font-montserrat text-4.5xl font-semibold">
             GOT Explorer
           </h3>
 
-          <p className="mt-4 w-2/6 text-xl font-medium leading-8 text-neutral-500">
+          <p className="mt-2 w-2/6 text-xl font-medium leading-8 text-neutral-500">
             Wikipedia about the Game of Thrones TV series based on George
             Martin&apos;s fantasy novel &quot;A Song of Ice and Fire&quot;.
           </p>
@@ -80,7 +81,7 @@ export default function Works() {
             href="https://got-explorer.vercel.app/"
             target="_blank"
             rel="noreferrer"
-            className="relative mt-12 block w-fit py-1 pr-2 align-bottom text-2xl font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-pizza before:px-4 before:duration-500 hover:before:h-5/6"
+            className="relative mt-12 block w-fit py-1 pr-2 align-bottom text-xl font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-got before:px-4 before:duration-500 hover:before:h-5/6"
           >
             View Project
           </a>
@@ -89,19 +90,20 @@ export default function Works() {
             href="https://github.com/AlexandrSpevakov/got-explorer"
             target="_blank"
             rel="noreferrer"
-            className="relative mt-4 block w-fit py-1 pr-2 align-bottom text-2xl font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-pizza before:px-4 before:duration-500 hover:before:h-5/6"
+            className="relative mt-4 block w-fit py-1 pr-2 align-bottom text-xl font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-got before:px-4 before:duration-500 hover:before:h-5/6"
           >
             Source Code
           </a>
         </section>
 
-        <section className="absolute right-0 top-0 w-9/12 bg-pizza md:py-16 md:pr-12 md:pl-32">
+        <section className="absolute right-0 top-0 w-9/12 bg-got md:py-16 md:pr-12 md:pl-32">
           <div className="shadow-3xl">
             <div className="flex h-6 rounded-t-md bg-tab py-2.75 px-2.5">
               <span className="mr-2 block h-2.5 w-2.5 rounded-[50%] bg-red-25" />
               <span className="mr-2 block h-2.5 w-2.5 rounded-[50%] bg-yellow-25" />
               <span className="mr-2 block h-2.5 w-2.5 rounded-[50%] bg-green-25" />
             </div>
+
             <Image
               src={got}
               alt="Game of Thrones Wiki"
