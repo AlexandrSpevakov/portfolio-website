@@ -18,7 +18,11 @@ export default function Works() {
               <span className="mr-2 block h-2.5 w-2.5 rounded-[50%] bg-green-25" />
             </section>
 
-            <Image src={pizza} alt="Pizza App" className="saturate-120" />
+            <Image
+              src={pizza}
+              alt="Crust & Co. - Pizza Work"
+              className="saturate-120"
+            />
           </section>
         </section>
 
@@ -70,7 +74,7 @@ export default function Works() {
 
             <Image
               src={got}
-              alt="Game of Thrones Wiki"
+              alt="Game of Thrones - Wiki Work"
               className="saturate-135"
             />
           </section>
