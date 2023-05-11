@@ -44,7 +44,7 @@ export default function Works() {
           </div>
 
           <a
-            href="https://pizza-store-application.netlify.app/"
+            href="https://crustco.netlify.app/"
             target="_blank"
             rel="noreferrer"
             className="relative mt-12 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-pizza before:px-4 before:duration-500 hover:before:h-5/6"
@@ -53,7 +53,7 @@ export default function Works() {
           </a>
 
           <a
-            href="https://github.com/SashaSpevakov/pizza-app"
+            href="https://github.com/SashaSpievakov/crust-co"
             target="_blank"
             rel="noreferrer"
             className="relative mt-4 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-pizza before:px-4 before:duration-500 hover:before:h-5/6"
