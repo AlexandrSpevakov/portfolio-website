@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import pizza from '../../public/pizza-work.png';
+import pizza from '../../public/crust&co-work.webp';
 import got from '../../public/got-work.webp';
 // import plants from '../../public/plants-work.png';
 // import restaurant from '../../public/restaurant-work.webp';
