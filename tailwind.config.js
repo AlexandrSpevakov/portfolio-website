@@ -34,9 +34,7 @@ module.exports = {
         135: '1.35',
       },
       screens: {
-        xs: '400px',
-        sm: '576px',
-        '3xl': '2000px',
+        sm: '425px',
       },
       colors: {
         pizza: '#e4d9ce',

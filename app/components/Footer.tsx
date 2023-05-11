@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="mx-auto flex max-w-screen-xl items-center justify-between px-40 pb-10">
+    <footer className="mx-auto flex max-w-screen-xl items-center justify-between px-5 pb-10 sm:px-10 md:px-20 lg:px-40">
       <div className="flex flex-col text-sm">
         <span className="">&copy; 2023 Sasha Spievakov.</span>
         <span className="mt-1">All rights reserved.</span>
