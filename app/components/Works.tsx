@@ -27,7 +27,7 @@ export default function Works() {
             Crust & Co.
           </h3>
 
-          <p className="mt-2 xl:mt-4 font-medium leading-8 text-neutral-500 sm:w-96 lg:w-2/6">
+          <p className="mt-2 font-medium leading-8 text-neutral-500 sm:w-96 lg:w-2/6 xl:mt-4">
             An innovative online pizza store offering a delicious selection of
             handcrafted pizzas with a seamless ordering experience.
           </p>
@@ -81,7 +81,7 @@ export default function Works() {
             GOT Explorer
           </h3>
 
-          <p className="mt-2 xl:mt-4 font-medium leading-8 text-neutral-500 sm:w-96 lg:w-2/6">
+          <p className="mt-2 font-medium leading-8 text-neutral-500 sm:w-96 lg:w-2/6 xl:mt-4">
             Wikipedia about the Game of Thrones TV series based on George
             Martin&apos;s fantasy novel &quot;A Song of Ice and Fire&quot;.
           </p>
