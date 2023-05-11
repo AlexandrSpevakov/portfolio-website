@@ -8,19 +8,31 @@ import tours from '../../public/tours-work.webp';
 
 export default function Works() {
   return (
-    <section className="mx-auto max-w-screen-xl px-10 pt-24 lg:text-base xl:text-xl">
-      <article className="relative pb-60">
+    <section className="mx-auto max-w-screen-xl px-10 pt-24 xl:text-xl">
+      <article className="relative md:pb-44 lg:pb-60">
+        <section className="bg-pizza md:py-10 md:px-16 lg:absolute lg:right-0 lg:top-0 lg:w-9/12 lg:py-16 lg:pr-12 lg:pl-32">
+          <div className="shadow-3xl">
+            <div className="flex h-6 rounded-t-md bg-tab py-2.75 px-2.5">
+              <span className="mr-2 block h-2.5 w-2.5 rounded-[50%] bg-red-25" />
+              <span className="mr-2 block h-2.5 w-2.5 rounded-[50%] bg-yellow-25" />
+              <span className="mr-2 block h-2.5 w-2.5 rounded-[50%] bg-green-25" />
+            </div>
+
+            <Image src={pizza} alt="Pizza App" className="saturate-120" />
+          </div>
+        </section>
+
         <section className="relative z-10">
-          <h3 className="pt-16 font-montserrat font-semibold lg:text-3xl xl:text-4.5xl">
+          <h3 className="font-montserrat font-semibold md:pt-12 md:text-3xl lg:pt-16 xl:text-4.5xl">
             Crust & Co.
           </h3>
 
-          <p className="mt-2 w-2/6 font-medium leading-8 text-neutral-500">
+          <p className="mt-2 font-medium leading-8 text-neutral-500 md:w-96 lg:w-2/6">
             An innovative online pizza store offering a delicious selection of
             handcrafted pizzas with a seamless ordering experience.
           </p>
 
-          <div className="mt-8 flex flex-wrap gap-2 font-medium lg:w-48 xl:w-60">
+          <div className="mt-8 flex flex-wrap gap-2 font-medium md:w-48 xl:w-60">
             <span className="bg-neutral-200 py-1 px-2">React</span>
             <span className="bg-neutral-200 py-1 px-2">Redux</span>
             <span className="bg-neutral-200 py-1 px-2">TypeScript</span>
@@ -45,8 +57,10 @@ export default function Works() {
             Source Code
           </a>
         </section>
+      </article>
 
-        <section className="absolute right-0 top-0 w-9/12 bg-pizza md:py-16 md:pr-12 md:pl-32">
+      <article className="relative md:pb-44 lg:pb-60">
+        <section className="bg-got md:py-10 md:px-16 lg:absolute lg:right-0 lg:top-0 lg:w-9/12 lg:py-16 lg:pr-12 lg:pl-32">
           <div className="shadow-3xl">
             <div className="flex h-6 rounded-t-md bg-tab py-2.75 px-2.5">
               <span className="mr-2 block h-2.5 w-2.5 rounded-[50%] bg-red-25" />
@@ -54,23 +68,25 @@ export default function Works() {
               <span className="mr-2 block h-2.5 w-2.5 rounded-[50%] bg-green-25" />
             </div>
 
-            <Image src={pizza} alt="Pizza App" className="saturate-120" />
+            <Image
+              src={got}
+              alt="Game of Thrones Wiki"
+              className="saturate-135"
+            />
           </div>
         </section>
-      </article>
 
-      <article className="relative pb-60">
         <section className="relative z-10">
-          <h3 className="pt-16 font-montserrat font-semibold lg:text-3xl xl:text-4.5xl">
+          <h3 className="font-montserrat font-semibold md:pt-12 md:text-3xl lg:pt-16 xl:text-4.5xl">
             GOT Explorer
           </h3>
 
-          <p className="mt-2 w-2/6 font-medium leading-8 text-neutral-500">
+          <p className="mt-2 font-medium leading-8 text-neutral-500 md:w-96 lg:w-2/6">
             Wikipedia about the Game of Thrones TV series based on George
             Martin&apos;s fantasy novel &quot;A Song of Ice and Fire&quot;.
           </p>
 
-          <div className="mt-8 flex flex-wrap gap-2 font-medium lg:w-48 xl:w-60">
+          <div className="mt-8 flex flex-wrap gap-2 font-medium md:w-48 xl:w-60">
             <span className="bg-neutral-200 py-1 px-2">React</span>
             <span className="bg-neutral-200 py-1 px-2">Next.js</span>
             <span className="bg-neutral-200 py-1 px-2">TypeScript</span>
@@ -94,22 +110,6 @@ export default function Works() {
           >
             Source Code
           </a>
-        </section>
-
-        <section className="absolute right-0 top-0 w-9/12 bg-got md:py-16 md:pr-12 md:pl-32">
-          <div className="shadow-3xl">
-            <div className="flex h-6 rounded-t-md bg-tab py-2.75 px-2.5">
-              <span className="mr-2 block h-2.5 w-2.5 rounded-[50%] bg-red-25" />
-              <span className="mr-2 block h-2.5 w-2.5 rounded-[50%] bg-yellow-25" />
-              <span className="mr-2 block h-2.5 w-2.5 rounded-[50%] bg-green-25" />
-            </div>
-
-            <Image
-              src={got}
-              alt="Game of Thrones Wiki"
-              className="saturate-135"
-            />
-          </div>
         </section>
       </article>
 
