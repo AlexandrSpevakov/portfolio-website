@@ -8,19 +8,19 @@ import tours from '../../public/tours-work.webp';
 
 export default function Works() {
   return (
-    <section className="mx-auto max-w-screen-xl px-10 pt-24">
+    <section className="mx-auto max-w-screen-xl px-10 pt-24 lg:text-base xl:text-xl">
       <article className="relative pb-60">
         <section className="relative z-10">
-          <h3 className="pt-16 font-montserrat text-4.5xl font-semibold">
+          <h3 className="pt-16 font-montserrat font-semibold lg:text-3xl xl:text-4.5xl">
             Crust & Co.
           </h3>
 
-          <p className="mt-2 w-2/6 text-xl font-medium leading-8 text-neutral-500">
-            An innovative online pizza store offering a mouthwatering selection
-            of handcrafted pizzas with a seamless ordering experience.
+          <p className="mt-2 w-2/6 font-medium leading-8 text-neutral-500">
+            An innovative online pizza store offering a delicious selection of
+            handcrafted pizzas with a seamless ordering experience.
           </p>
 
-          <div className="mt-8 flex max-w-[15rem] flex-wrap gap-2 text-xl font-medium">
+          <div className="mt-8 flex flex-wrap gap-2 font-medium lg:w-48 xl:w-60">
             <span className="bg-neutral-200 py-1 px-2">React</span>
             <span className="bg-neutral-200 py-1 px-2">Redux</span>
             <span className="bg-neutral-200 py-1 px-2">TypeScript</span>
@@ -31,7 +31,7 @@ export default function Works() {
             href="https://pizza-store-application.netlify.app/"
             target="_blank"
             rel="noreferrer"
-            className="relative mt-12 block w-fit py-1 pr-2 align-bottom text-xl font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-pizza before:px-4 before:duration-500 hover:before:h-5/6"
+            className="relative mt-12 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-pizza before:px-4 before:duration-500 hover:before:h-5/6"
           >
             View Project
           </a>
@@ -40,7 +40,7 @@ export default function Works() {
             href="https://github.com/SashaSpevakov/pizza-app"
             target="_blank"
             rel="noreferrer"
-            className="relative mt-4 block w-fit py-1 pr-2 align-bottom text-xl font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-pizza before:px-4 before:duration-500 hover:before:h-5/6"
+            className="relative mt-4 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-pizza before:px-4 before:duration-500 hover:before:h-5/6"
           >
             Source Code
           </a>
@@ -61,16 +61,16 @@ export default function Works() {
 
       <article className="relative pb-60">
         <section className="relative z-10">
-          <h3 className="pt-16 font-montserrat text-4.5xl font-semibold">
+          <h3 className="pt-16 font-montserrat font-semibold lg:text-3xl xl:text-4.5xl">
             GOT Explorer
           </h3>
 
-          <p className="mt-2 w-2/6 text-xl font-medium leading-8 text-neutral-500">
+          <p className="mt-2 w-2/6 font-medium leading-8 text-neutral-500">
             Wikipedia about the Game of Thrones TV series based on George
             Martin&apos;s fantasy novel &quot;A Song of Ice and Fire&quot;.
           </p>
 
-          <div className="mt-8 flex max-w-[15rem] flex-wrap gap-2 text-xl font-medium">
+          <div className="mt-8 flex flex-wrap gap-2 font-medium lg:w-48 xl:w-60">
             <span className="bg-neutral-200 py-1 px-2">React</span>
             <span className="bg-neutral-200 py-1 px-2">Next.js</span>
             <span className="bg-neutral-200 py-1 px-2">TypeScript</span>
@@ -81,7 +81,7 @@ export default function Works() {
             href="https://got-explorer.vercel.app/"
             target="_blank"
             rel="noreferrer"
-            className="relative mt-12 block w-fit py-1 pr-2 align-bottom text-xl font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-got before:px-4 before:duration-500 hover:before:h-5/6"
+            className="relative mt-12 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-got before:px-4 before:duration-500 hover:before:h-5/6"
           >
             View Project
           </a>
@@ -90,7 +90,7 @@ export default function Works() {
             href="https://github.com/AlexandrSpevakov/got-explorer"
             target="_blank"
             rel="noreferrer"
-            className="relative mt-4 block w-fit py-1 pr-2 align-bottom text-xl font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-got before:px-4 before:duration-500 hover:before:h-5/6"
+            className="relative mt-4 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-got before:px-4 before:duration-500 hover:before:h-5/6"
           >
             Source Code
           </a>
@@ -133,7 +133,7 @@ export default function Works() {
           increase their life span after your purchases.
         </p>
 
-        <p className="font-bold md:mt-6 lg:mt-7 lg:text-lg xl:mt-8 xl:text-xl 2xl:mt-9 2xl:text-2xl 3xl:mt-10 3xl:text-3xl">
+        <p className="font-bold md:mt-6 lg:mt-7base xl:mt-8 xl:text-xl 2xl:mt-9 2xl:text-2xl 3xl:mt-10 3xl:text-3xl">
           <span className="mr-1 font-normal lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-4xl">
             Tech Stack:
           </span>{' '}
