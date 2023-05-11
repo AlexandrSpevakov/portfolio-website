@@ -2,9 +2,9 @@ import Image from 'next/image';
 
 import pizza from '../../public/pizza-work.png';
 import got from '../../public/got-work.webp';
-import plants from '../../public/plants-work.webp';
-import restaurant from '../../public/restaurant-work.webp';
-import tours from '../../public/tours-work.webp';
+// import plants from '../../public/plants-work.png';
+// import restaurant from '../../public/restaurant-work.webp';
+// import tours from '../../public/tours-work.webp';
 
 export default function Works() {
   return (
