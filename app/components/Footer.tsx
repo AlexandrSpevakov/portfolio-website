@@ -1,11 +1,25 @@
 export default function Footer() {
   return (
-    <section className="mt-[139px] bg-black text-white md:pb-4 lg:pb-5 xl:pb-6 2xl:pb-8 3xl:pb-10">
-      <footer className="relative mx-auto w-10/12 bg-cover bg-center bg-no-repeat">
-        <span className="block text-center font-archivo lg:text-sm xl:text-base 2xl:text-lg 3xl:text-xl">
-          &copy; Sasha Spievakov 2023
-        </span>
-      </footer>
-    </section>
+    <footer className="mx-auto flex max-w-screen-xl items-center justify-between px-40 pb-10">
+      <div className="flex flex-col text-sm">
+        <span className="">&copy; 2023 Sasha Spievakov.</span>
+        <span className="mt-1">All rights reserved.</span>
+      </div>
+
+      <div className="flex flex-col underline underline-offset-[3px]">
+        <a href="mailto:spievakov@gmail.com" className="">
+          Email
+        </a>
+
+        <a
+          href="https://github.com/SashaSpievakov"
+          target="_blank"
+          rel="noreferrer"
+          className="mt-1"
+        >
+          GitHub
+        </a>
+      </div>
+    </footer>
   );
 }
