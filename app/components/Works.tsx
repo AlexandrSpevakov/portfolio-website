@@ -8,9 +8,9 @@ import tours from '../../public/tours-work.webp';
 
 export default function Works() {
   return (
-    <section className="mx-auto max-w-screen-xl pt-24 sm:px-6 md:px-10 xl:text-xl">
-      <article className="relative sm:pb-32 md:pb-44 lg:pb-60">
-        <section className="bg-pizza before:absolute before:left-[-30px] before:top-[-20px] before:h-1/4 before:w-[800px] before:bg-pizza md:py-10 md:px-16 md:before:hidden lg:absolute lg:right-0 lg:top-0 lg:w-9/12 lg:py-16 lg:pr-12 lg:pl-32">
+    <section className="mx-auto max-w-screen-xl px-4 pt-24 sm:px-6 md:px-10 xl:text-xl">
+      <article className="relative pb-32 md:pb-44 lg:pb-60">
+        <section className="bg-pizza before:absolute before:left-[-30px] before:top-[-40px] before:z-[-1] before:h-1/4 before:w-[800px] before:bg-pizza md:py-10 md:px-16 md:before:hidden lg:absolute lg:right-0 lg:top-0 lg:w-9/12 lg:py-16 lg:pr-12 lg:pl-32">
           <section className="shadow-3xl">
             <section className="flex h-6 rounded-t-md bg-tab py-2.75 px-2.5">
               <span className="mr-2 block h-2.5 w-2.5 rounded-[50%] bg-red-25" />
@@ -23,7 +23,7 @@ export default function Works() {
         </section>
 
         <section className="relative z-10">
-          <h3 className="font-montserrat font-semibold sm:pt-12 sm:text-3xl lg:pt-16 xl:text-4.5xl">
+          <h3 className="pt-12 font-montserrat text-3xl font-semibold lg:pt-16 xl:text-4.5xl">
             Crust & Co.
           </h3>
 
@@ -32,7 +32,7 @@ export default function Works() {
             handcrafted pizzas with a seamless ordering experience.
           </p>
 
-          <div className="mt-8 flex flex-wrap gap-2 font-medium sm:w-48 xl:w-60">
+          <div className="mt-8 flex w-48 flex-wrap gap-2 font-medium xl:w-60">
             <span className="bg-neutral-200 py-1 px-2">React</span>
             <span className="bg-neutral-200 py-1 px-2">Redux</span>
             <span className="bg-neutral-200 py-1 px-2">TypeScript</span>
@@ -59,8 +59,8 @@ export default function Works() {
         </section>
       </article>
 
-      <article className="relative sm:pb-32 md:pb-44 lg:pb-60">
-        <section className="bg-got before:absolute before:left-[-30px] before:top-[-20px] before:h-1/4 before:w-[800px] before:bg-got md:py-10 md:px-16 md:before:hidden lg:absolute lg:right-0 lg:top-0 lg:w-9/12 lg:py-16 lg:pr-12 lg:pl-32">
+      <article className="relative pb-32 md:pb-44 lg:pb-60">
+        <section className="bg-got before:absolute before:left-[-30px] before:top-[-40px] before:z-[-1] before:h-1/4 before:w-[800px] before:bg-got md:py-10 md:px-16 md:before:hidden lg:absolute lg:right-0 lg:top-0 lg:w-9/12 lg:py-16 lg:pr-12 lg:pl-32">
           <section className="shadow-3xl">
             <section className="flex h-6 rounded-t-md bg-tab py-2.75 px-2.5">
               <span className="mr-2 block h-2.5 w-2.5 rounded-[50%] bg-red-25" />
@@ -77,7 +77,7 @@ export default function Works() {
         </section>
 
         <section className="relative z-10">
-          <h3 className="font-montserrat font-semibold sm:pt-12 sm:text-3xl lg:pt-16 xl:text-4.5xl">
+          <h3 className="pt-12 font-montserrat text-3xl font-semibold lg:pt-16 xl:text-4.5xl">
             GOT Explorer
           </h3>
 
@@ -86,7 +86,7 @@ export default function Works() {
             Martin&apos;s fantasy novel &quot;A Song of Ice and Fire&quot;.
           </p>
 
-          <div className="mt-8 flex flex-wrap gap-2 font-medium sm:w-48 xl:w-60">
+          <div className="mt-8 flex w-48 flex-wrap gap-2 font-medium xl:w-60">
             <span className="bg-neutral-200 py-1 px-2">React</span>
             <span className="bg-neutral-200 py-1 px-2">Next.js</span>
             <span className="bg-neutral-200 py-1 px-2">TypeScript</span>
