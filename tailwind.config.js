@@ -39,6 +39,7 @@ module.exports = {
       colors: {
         pizza: '#e4d9ce',
         got: '#dfd7d2',
+        arid: '#d6e5df',
         tab: '#26282a',
         red: {
           25: '#fd615d',
