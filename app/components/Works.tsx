@@ -3,7 +3,7 @@ import Image from 'next/image';
 import crust from '../../public/crust&co-work.webp';
 import got from '../../public/got-work.webp';
 import arid from '../../public/arid-allure.webp';
-import odyssey from '../../public/odyssey-outings.webp';
+import Odysseriat from '../../public/odysseriat.webp';
 // import restaurant from '../../public/restaurant-work.webp';
 
 export default function Works() {
@@ -151,7 +151,7 @@ export default function Works() {
       </article>
 
       <article className="relative pb-32 md:pb-44 lg:pb-72">
-        <section className="bg-odyssey before:absolute before:left-[-30px] before:top-[-40px] before:z-[-1] before:h-1/4 before:w-[800px] before:bg-odyssey md:py-10 md:px-16 md:before:hidden lg:absolute lg:right-0 lg:top-0 lg:w-9/12 lg:py-16 lg:pr-12 lg:pl-32">
+        <section className="bg-odysseriat before:absolute before:left-[-30px] before:top-[-40px] before:z-[-1] before:h-1/4 before:w-[800px] before:bg-odysseriat md:py-10 md:px-16 md:before:hidden lg:absolute lg:right-0 lg:top-0 lg:w-9/12 lg:py-16 lg:pr-12 lg:pl-32">
           <section className="shadow-3xl">
             <section className="flex h-6 rounded-t-md bg-tab py-2.75 px-2.5">
               <span className="mr-2 block h-2.5 w-2.5 rounded-[50%] bg-red-25" />
@@ -160,8 +160,8 @@ export default function Works() {
             </section>
 
             <Image
-              src={odyssey}
-              alt="Odyssey Outings - Travels Work"
+              src={Odysseriat}
+              alt="Odysseriat - Travels Work"
               className="saturate-135"
             />
           </section>
@@ -169,7 +169,7 @@ export default function Works() {
 
         <section className="relative z-10">
           <h3 className="pt-12 font-montserrat text-3xl font-semibold sm:text-4xl lg:pt-28 xl:pt-32 xl:text-4.5xl">
-            Odyssey Outings
+            Odysseriat
           </h3>
 
           <p className="mt-2 font-medium leading-8 text-neutral-500 sm:w-96 lg:w-2/6 xl:mt-4">
@@ -178,19 +178,19 @@ export default function Works() {
           </p>
 
           <a
-            href="https://sashaspievakov.github.io/odyssey-outings/"
+            href="https://sashaspievakov.github.io/odysseriat/"
             target="_blank"
             rel="noreferrer"
-            className="relative mt-8 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-odyssey before:px-4 before:duration-500 hover:before:h-5/6 xl:mt-12"
+            className="relative mt-8 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-odysseriat before:px-4 before:duration-500 hover:before:h-5/6 xl:mt-12"
           >
             View Project
           </a>
 
           <a
-            href="https://github.com/SashaSpievakov/odyssey-outings/"
+            href="https://github.com/SashaSpievakov/odysseriat/"
             target="_blank"
             rel="noreferrer"
-            className="relative mt-3 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-odyssey before:px-4 before:duration-500 hover:before:h-5/6 xl:mt-4"
+            className="relative mt-3 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-odysseriat before:px-4 before:duration-500 hover:before:h-5/6 xl:mt-4"
           >
             Source Code
           </a>
