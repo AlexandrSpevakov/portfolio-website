@@ -37,7 +37,7 @@ module.exports = {
         sm: '425px',
       },
       colors: {
-        pizza: '#e4d9ce',
+        crust: '#e4d9ce',
         got: '#dfd7d2',
         arid: '#d6e5df',
         tab: '#26282a',

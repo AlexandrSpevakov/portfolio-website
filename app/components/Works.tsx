@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import pizza from '../../public/crust&co-work.webp';
+import crust from '../../public/crust&co-work.webp';
 import got from '../../public/got-work.webp';
 import arid from '../../public/arid-allure.webp';
 // import restaurant from '../../public/restaurant-work.webp';
@@ -8,9 +8,9 @@ import arid from '../../public/arid-allure.webp';
 
 export default function Works() {
   return (
-    <section className="mx-auto max-w-screen-xl overflow-hidden px-4 pt-24 sm:px-6 md:px-10 xl:text-xl">
-      <article className="relative pb-32 md:pb-44 lg:pb-60">
-        <section className="bg-pizza before:absolute before:left-[-30px] before:top-[-40px] before:z-[-1] before:h-1/4 before:w-[800px] before:bg-pizza md:py-10 md:px-16 md:before:hidden lg:absolute lg:right-0 lg:top-0 lg:w-9/12 lg:py-16 lg:pr-12 lg:pl-32">
+    <section className="mx-auto max-w-screen-xl overflow-hidden px-4 pt-24 sm:px-6 sm:text-lg md:px-10 xl:text-xl">
+      <article className="relative pb-32 md:pb-44 lg:pb-72">
+        <section className="bg-crust before:absolute before:left-[-30px] before:top-[-40px] before:z-[-1] before:h-1/4 before:w-[800px] before:bg-crust md:py-10 md:px-16 md:before:hidden lg:absolute lg:right-0 lg:top-0 lg:w-9/12 lg:py-16 lg:pr-12 lg:pl-32">
           <section className="shadow-3xl">
             <section className="flex h-6 rounded-t-md bg-tab py-2.75 px-2.5">
               <span className="mr-2 block h-2.5 w-2.5 rounded-[50%] bg-red-25" />
@@ -19,7 +19,7 @@ export default function Works() {
             </section>
 
             <Image
-              src={pizza}
+              src={crust}
               alt="Crust & Co. - Pizza Work"
               className="saturate-120"
             />
@@ -27,7 +27,7 @@ export default function Works() {
         </section>
 
         <section className="relative z-10">
-          <h3 className="pt-12 font-montserrat text-3xl font-semibold lg:pt-16 xl:text-4.5xl">
+          <h3 className="pt-12 font-montserrat text-3xl font-semibold sm:text-4xl lg:pt-28 xl:pt-32 xl:text-4.5xl">
             Crust & Co.
           </h3>
 
@@ -36,18 +36,11 @@ export default function Works() {
             handcrafted pizzas with a seamless ordering experience.
           </p>
 
-          <div className="mt-8 flex w-48 flex-wrap gap-2 font-medium xl:w-60">
-            <span className="bg-neutral-200 py-1 px-2">React</span>
-            <span className="bg-neutral-200 py-1 px-2">Redux</span>
-            <span className="bg-neutral-200 py-1 px-2">TypeScript</span>
-            <span className="bg-neutral-200 py-1 px-2">Jest</span>
-          </div>
-
           <a
             href="https://crustco.netlify.app/"
             target="_blank"
             rel="noreferrer"
-            className="relative mt-12 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-pizza before:px-4 before:duration-500 hover:before:h-5/6"
+            className="relative mt-8 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-crust before:px-4 before:duration-500 hover:before:h-5/6 xl:mt-12"
           >
             View Project
           </a>
@@ -56,14 +49,14 @@ export default function Works() {
             href="https://github.com/SashaSpievakov/crust-co"
             target="_blank"
             rel="noreferrer"
-            className="relative mt-4 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-pizza before:px-4 before:duration-500 hover:before:h-5/6"
+            className="relative mt-3 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-crust before:px-4 before:duration-500 hover:before:h-5/6 xl:mt-4"
           >
             Source Code
           </a>
         </section>
       </article>
 
-      <article className="relative pb-32 md:pb-44 lg:pb-60">
+      <article className="relative pb-32 md:pb-44 lg:pb-72">
         <section className="bg-got before:absolute before:left-[-30px] before:top-[-40px] before:z-[-1] before:h-1/4 before:w-[800px] before:bg-got md:py-10 md:px-16 md:before:hidden lg:absolute lg:right-0 lg:top-0 lg:w-9/12 lg:py-16 lg:pr-12 lg:pl-32">
           <section className="shadow-3xl">
             <section className="flex h-6 rounded-t-md bg-tab py-2.75 px-2.5">
@@ -81,7 +74,7 @@ export default function Works() {
         </section>
 
         <section className="relative z-10">
-          <h3 className="pt-12 font-montserrat text-3xl font-semibold lg:pt-16 xl:text-4.5xl">
+          <h3 className="pt-12 font-montserrat text-3xl font-semibold sm:text-4xl lg:pt-28 xl:pt-32 xl:text-4.5xl">
             GOT Explorer
           </h3>
 
@@ -90,18 +83,11 @@ export default function Works() {
             Martin&apos;s fantasy novel &quot;A Song of Ice and Fire&quot;.
           </p>
 
-          <div className="mt-8 flex w-48 flex-wrap gap-2 font-medium xl:w-60">
-            <span className="bg-neutral-200 py-1 px-2">React</span>
-            <span className="bg-neutral-200 py-1 px-2">Next.js</span>
-            <span className="bg-neutral-200 py-1 px-2">TypeScript</span>
-            <span className="bg-neutral-200 py-1 px-2">Tailwind</span>
-          </div>
-
           <a
             href="https://got-explorer.vercel.app/"
             target="_blank"
             rel="noreferrer"
-            className="relative mt-12 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-got before:px-4 before:duration-500 hover:before:h-5/6"
+            className="relative mt-8 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-got before:px-4 before:duration-500 hover:before:h-5/6 xl:mt-12"
           >
             View Project
           </a>
@@ -110,14 +96,14 @@ export default function Works() {
             href="https://github.com/AlexandrSpevakov/got-explorer"
             target="_blank"
             rel="noreferrer"
-            className="relative mt-4 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-got before:px-4 before:duration-500 hover:before:h-5/6"
+            className="relative mt-3 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-got before:px-4 before:duration-500 hover:before:h-5/6 xl:mt-4"
           >
             Source Code
           </a>
         </section>
       </article>
 
-      <article className="relative pb-32 md:pb-44 lg:pb-60">
+      <article className="relative pb-32 md:pb-44 lg:pb-72">
         <section className="bg-arid before:absolute before:left-[-30px] before:top-[-40px] before:z-[-1] before:h-1/4 before:w-[800px] before:bg-arid md:py-10 md:px-16 md:before:hidden lg:absolute lg:right-0 lg:top-0 lg:w-9/12 lg:py-16 lg:pr-12 lg:pl-32">
           <section className="shadow-3xl">
             <section className="flex h-6 rounded-t-md bg-tab py-2.75 px-2.5">
@@ -135,7 +121,7 @@ export default function Works() {
         </section>
 
         <section className="relative z-10">
-          <h3 className="pt-12 font-montserrat text-3xl font-semibold lg:pt-16 xl:text-4.5xl">
+          <h3 className="pt-12 font-montserrat text-3xl font-semibold sm:text-4xl lg:pt-28 xl:pt-32 xl:text-4.5xl">
             Arid Allure
           </h3>
 
@@ -144,17 +130,11 @@ export default function Works() {
             cacti, adding a touch of desert-inspired beauty to your homes.
           </p>
 
-          <div className="mt-8 flex w-48 flex-wrap gap-2 font-medium xl:w-60">
-            <span className="bg-neutral-200 py-1 px-2">JavaScript</span>
-            <span className="bg-neutral-200 py-1 px-2">SCSS</span>
-            <span className="bg-neutral-200 py-1 px-2">HTML5</span>
-          </div>
-
           <a
             href="https://sashaspievakov.github.io/arid-allure/"
             target="_blank"
             rel="noreferrer"
-            className="relative mt-12 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-arid before:px-4 before:duration-500 hover:before:h-5/6"
+            className="relative mt-8 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-arid before:px-4 before:duration-500 hover:before:h-5/6 xl:mt-12"
           >
             View Project
           </a>
@@ -163,7 +143,7 @@ export default function Works() {
             href="https://github.com/SashaSpievakov/arid-allure"
             target="_blank"
             rel="noreferrer"
-            className="relative mt-4 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-arid before:px-4 before:duration-500 hover:before:h-5/6"
+            className="relative mt-3 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-arid before:px-4 before:duration-500 hover:before:h-5/6 xl:mt-4"
           >
             Source Code
           </a>
