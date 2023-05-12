@@ -32,8 +32,8 @@ export default function Works() {
           </h3>
 
           <p className="mt-2 font-medium leading-8 text-neutral-500 sm:w-96 lg:w-2/6 xl:mt-4">
-            An innovative online pizza store offering a delicious selection of
-            handcrafted pizzas with a seamless ordering experience.
+            An innovative online pizza store offering a selection of handcrafted
+            pizzas with a seamless ordering experience.
           </p>
 
           <a
@@ -126,8 +126,8 @@ export default function Works() {
           </h3>
 
           <p className="mt-2 font-medium leading-8 text-neutral-500 sm:w-96 lg:w-2/6 xl:mt-4">
-            A store which sells and explores a stunning selection of unique
-            cacti, adding a touch of desert-inspired beauty to your homes.
+            A store that sells and explores a selection of unique cacti, adding
+            a touch of desert-inspired beauty to your homes.
           </p>
 
           <a
@@ -173,8 +173,8 @@ export default function Works() {
           </h3>
 
           <p className="mt-2 font-medium leading-8 text-neutral-500 sm:w-96 lg:w-2/6 xl:mt-4">
-            The store provides an all-in-one platform to purchase and book
-            vacation tours, ensuring adventures tailored to your preferences.
+            The store provides an all-in-one platform to book vacation tours,
+            ensuring adventures tailored to your preferences.
           </p>
 
           <a
