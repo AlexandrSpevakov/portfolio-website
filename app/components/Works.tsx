@@ -33,9 +33,9 @@ export default function Works() {
         </section>
 
         <section className="relative">
-          <h3 className="pt-12 font-montserrat text-3xl font-semibold sm:text-4xl lg:pt-28 xl:pt-32 xl:text-4.5xl">
+          <h2 className="pt-12 font-montserrat text-3xl font-semibold sm:text-4xl lg:pt-28 xl:pt-32 xl:text-4.5xl">
             Crust & Co.
-          </h3>
+          </h2>
 
           <p className="mt-2 font-medium leading-8 text-neutral-500 sm:w-80 lg:w-[23%] xl:mt-4">
             An online store of handmade pizzas with a seamless ordering
@@ -86,9 +86,9 @@ export default function Works() {
         </section>
 
         <section className="relative">
-          <h3 className="pt-12 font-montserrat text-3xl font-semibold sm:text-4xl lg:pt-28 xl:pt-32 xl:text-4.5xl">
+          <h2 className="pt-12 font-montserrat text-3xl font-semibold sm:text-4xl lg:pt-28 xl:pt-32 xl:text-4.5xl">
             GOT Explorer
-          </h3>
+          </h2>
 
           <p className="mt-2 font-medium leading-8 text-neutral-500 sm:w-80 lg:w-[23%] xl:mt-4">
             Game of Thrones Wikipedia which based on G. Martin&apos;s fantasy
@@ -139,9 +139,9 @@ export default function Works() {
         </section>
 
         <section className="relative">
-          <h3 className="pt-12 font-montserrat text-3xl font-semibold sm:text-4xl lg:pt-28 xl:pt-32 xl:text-4.5xl">
+          <h2 className="pt-12 font-montserrat text-3xl font-semibold sm:text-4xl lg:pt-28 xl:pt-32 xl:text-4.5xl">
             Arid Allure
-          </h3>
+          </h2>
 
           <p className="mt-2 font-medium leading-8 text-neutral-500 sm:w-80 lg:w-[23%] xl:mt-4">
             An online store that sells and explores a selection of unique cacti.
@@ -191,9 +191,9 @@ export default function Works() {
         </section>
 
         <section className="relative">
-          <h3 className="pt-12 font-montserrat text-3xl font-semibold sm:text-4xl lg:pt-28 xl:pt-32 xl:text-4.5xl">
+          <h2 className="pt-12 font-montserrat text-3xl font-semibold sm:text-4xl lg:pt-28 xl:pt-32 xl:text-4.5xl">
             Odysseriat
-          </h3>
+          </h2>
 
           <p className="mt-2 font-medium leading-8 text-neutral-500 sm:w-80 lg:w-[23%] xl:mt-4">
             The store provides an all-in-one platform to book vacation tours.
@@ -243,9 +243,9 @@ export default function Works() {
         </section>
 
         <section className="relative">
-          <h3 className="pt-12 font-montserrat text-3xl font-semibold sm:text-4xl lg:pt-28 xl:pt-32 xl:text-4.5xl">
+          <h2 className="pt-12 font-montserrat text-3xl font-semibold sm:text-4xl lg:pt-28 xl:pt-32 xl:text-4.5xl">
             Salad Verse
-          </h3>
+          </h2>
 
           <p className="mt-2 font-medium leading-8 text-neutral-500 sm:w-80 lg:w-[23%] xl:mt-4">
             Landing page for a local healthy-food restaurant in Ukraine.
