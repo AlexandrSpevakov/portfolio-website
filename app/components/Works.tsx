@@ -8,7 +8,7 @@ import salad from '../../public/salad-verse.webp';
 
 export default function Works() {
   return (
-    <section className="mx-auto max-w-screen-xl overflow-hidden px-4 pt-24 sm:px-6 sm:text-lg md:px-10 xl:text-xl">
+    <section className="mx-auto max-w-screen-xl overflow-hidden px-4 pt-24 text-lg sm:px-6 md:px-10 xl:text-xl">
       <article className="relative pb-32 md:pb-44 lg:pb-72">
         <section className="z-10 bg-crust before:absolute before:left-[-30px] before:top-[-40px] before:z-[-1] before:h-1/4 before:w-[800px] before:bg-crust md:py-10 md:px-16 md:before:hidden lg:absolute lg:right-0 lg:top-0 lg:w-9/12 lg:py-16 lg:px-24">
           <section className="shadow-3xl">
