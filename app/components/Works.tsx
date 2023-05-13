@@ -37,7 +37,7 @@ export default function Works() {
             Crust & Co.
           </h2>
 
-          <p className="mt-2 font-medium leading-8 text-neutral-500 sm:w-80 lg:w-[23%] xl:mt-4">
+          <p className="mt-2 w-[17rem] font-medium leading-8 text-neutral-500 sm:w-80 lg:w-[23%] xl:mt-4">
             An online store of handmade pizzas with a seamless ordering
             experience.
           </p>
@@ -90,7 +90,7 @@ export default function Works() {
             GOT Explorer
           </h2>
 
-          <p className="mt-2 font-medium leading-8 text-neutral-500 sm:w-80 lg:w-[23%] xl:mt-4">
+          <p className="mt-2 w-[17rem] font-medium leading-8 text-neutral-500 sm:w-80 lg:w-[23%] xl:mt-4">
             Game of Thrones Wikipedia which based on G. Martin&apos;s fantasy
             novels.
           </p>
@@ -143,7 +143,7 @@ export default function Works() {
             Arid Allure
           </h2>
 
-          <p className="mt-2 font-medium leading-8 text-neutral-500 sm:w-80 lg:w-[23%] xl:mt-4">
+          <p className="mt-2 w-[17rem] font-medium leading-8 text-neutral-500 sm:w-80 lg:w-[23%] xl:mt-4">
             An online store that sells and explores a selection of unique cacti.
           </p>
 
@@ -195,7 +195,7 @@ export default function Works() {
             Odysseriat
           </h2>
 
-          <p className="mt-2 font-medium leading-8 text-neutral-500 sm:w-80 lg:w-[23%] xl:mt-4">
+          <p className="mt-2 w-[17rem] font-medium leading-8 text-neutral-500 sm:w-80 lg:w-[23%] xl:mt-4">
             The store provides an all-in-one platform to book vacation tours.
           </p>
 
@@ -247,7 +247,7 @@ export default function Works() {
             Salad Verse
           </h2>
 
-          <p className="mt-2 font-medium leading-8 text-neutral-500 sm:w-80 lg:w-[23%] xl:mt-4">
+          <p className="mt-2 w-[17rem] font-medium leading-8 text-neutral-500 sm:w-80 lg:w-[23%] xl:mt-4">
             Landing page for a local healthy-food restaurant in Ukraine.
           </p>
 
