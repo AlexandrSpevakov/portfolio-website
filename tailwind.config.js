@@ -40,7 +40,8 @@ module.exports = {
         crust: '#e4d9ce',
         got: '#dfd7d2',
         arid: '#d6e5df',
-        odysseriat: '#ccf7ff',
+        odysseriat: '#d6f0f5',
+        salad: '#dbf0e2',
         tab: '#26282a',
         red: {
           25: '#fd615d',
