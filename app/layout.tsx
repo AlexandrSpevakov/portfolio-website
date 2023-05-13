@@ -16,6 +16,12 @@ const roboto = Roboto({
 export const metadata = {
   title: 'Sasha Spievakov — Software Engineer',
   description: "Sasha Spievako's Portfolio",
+  keywords: [
+    'Sasha Spievakov',
+    "Sasha Spievakov's Portfolio",
+    'Oleksandr Spievakov',
+    'Sasha Spievakov - Software Engineer',
+  ],
 };
 
 export default function RootLayout({

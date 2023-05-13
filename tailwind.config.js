@@ -16,30 +16,23 @@ module.exports = {
       },
       fontSize: {
         '4.5xl': ['40px'],
-        '6.5xl': ['66px'],
-        '7.5xl': ['5rem', { lineHeight: '6rem' }],
-        '10xl': ['9.5rem'],
       },
       spacing: {
-        '7/10': '70%',
-        '8.3/10': '83%',
         2.75: '7px',
-      },
-      borderWidth: {
-        6: '6px',
       },
       saturate: {
         120: '1.20',
-        125: '1.25',
         135: '1.35',
       },
       screens: {
         sm: '425px',
       },
       colors: {
-        pizza: '#e4d9ce',
+        crust: '#e4d9ce',
         got: '#dfd7d2',
         arid: '#d6e5df',
+        odysseriat: '#d6f0f5',
+        salad: '#dbf0e2',
         tab: '#26282a',
         red: {
           25: '#fd615d',
