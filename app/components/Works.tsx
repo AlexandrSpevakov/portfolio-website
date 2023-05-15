@@ -46,7 +46,7 @@ export default function Works() {
             href="https://crustco.netlify.app/"
             target="_blank"
             rel="noreferrer"
-            className="relative mt-8 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-crust before:px-4 before:duration-500 hover:before:h-5/6 xl:mt-12"
+            className="relative mt-5 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-crust before:px-4 before:duration-500 hover:before:h-5/6 xl:mt-6"
           >
             View Project
           </a>
@@ -99,7 +99,7 @@ export default function Works() {
             href="https://got-explorer.vercel.app/"
             target="_blank"
             rel="noreferrer"
-            className="relative mt-8 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-got before:px-4 before:duration-500 hover:before:h-5/6 xl:mt-12"
+            className="relative mt-5 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-got before:px-4 before:duration-500 hover:before:h-5/6 xl:mt-6"
           >
             View Project
           </a>
@@ -151,7 +151,7 @@ export default function Works() {
             href="https://sashaspievakov.github.io/arid-allure/"
             target="_blank"
             rel="noreferrer"
-            className="relative mt-8 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-arid before:px-4 before:duration-500 hover:before:h-5/6 xl:mt-12"
+            className="relative mt-5 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-arid before:px-4 before:duration-500 hover:before:h-5/6 xl:mt-6"
           >
             View Project
           </a>
@@ -203,7 +203,7 @@ export default function Works() {
             href="https://sashaspievakov.github.io/odysseriat/"
             target="_blank"
             rel="noreferrer"
-            className="relative mt-8 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-odysseriat before:px-4 before:duration-500 hover:before:h-5/6 xl:mt-12"
+            className="relative mt-5 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-odysseriat before:px-4 before:duration-500 hover:before:h-5/6 xl:mt-6"
           >
             View Project
           </a>
@@ -255,7 +255,7 @@ export default function Works() {
             href="https://sashaspievakov.github.io/salad-verse/"
             target="_blank"
             rel="noreferrer"
-            className="relative mt-8 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-salad before:px-4 before:duration-500 hover:before:h-5/6 xl:mt-12"
+            className="relative mt-5 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-salad before:px-4 before:duration-500 hover:before:h-5/6 xl:mt-6"
           >
             View Project
           </a>
