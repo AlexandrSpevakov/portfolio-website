@@ -28,8 +28,10 @@ module.exports = {
         sm: '425px',
       },
       colors: {
+        autopilot: '#e9e3fd',
         crust: '#e4d9ce',
         got: '#dfd7d2',
+        salt: '#dbf1ff',
         arid: '#d6e5df',
         odysseriat: '#d6f0f5',
         salad: '#dbf0e2',
