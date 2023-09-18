@@ -187,7 +187,7 @@ export default function Works() {
               <Image
                 src={imgCEWebp}
                 alt="CE Extension"
-                className="saturate-135"
+                className="saturate-120"
               />
             </a>
           </div>
