@@ -14,13 +14,13 @@ const roboto = Roboto({
 });
 
 export const metadata = {
-  title: 'Sasha Spievakov — Software Engineer',
+  title: 'Sasha Spievakov — Frontend Developer',
   description: "Sasha Spievako's Portfolio",
   keywords: [
     'Sasha Spievakov',
     "Sasha Spievakov's Portfolio",
-    'Oleksandr Spievakov',
-    'Sasha Spievakov - Software Engineer',
+    'Sasha Spievakov - Frontend Developer',
+    'Sasha Spievakov Frontend Developer',
   ],
 };
 
