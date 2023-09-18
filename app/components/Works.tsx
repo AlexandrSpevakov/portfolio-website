@@ -10,13 +10,13 @@ export default function Works() {
   return (
     <section className="mx-auto max-w-screen-xl overflow-hidden px-4 pt-24 text-lg sm:px-6 md:px-10 xl:text-xl">
       <article className="relative pb-44 lg:pb-[300px]">
-        <section className="z-10 bg-crust before:absolute before:left-[-30px] before:top-[-40px] before:z-[-1] before:h-1/4 before:w-[800px] before:bg-crust md:py-10 md:px-16 md:before:hidden lg:absolute lg:right-0 lg:top-0 lg:w-9/12 lg:py-16 lg:px-24">
-          <section className="shadow-3xl">
-            <section className="flex h-6 rounded-t-md bg-tab py-2.75 px-2.5">
+        <div className="z-10 bg-crust before:absolute before:left-[-30px] before:top-[-40px] before:z-[-1] before:h-1/4 before:w-[800px] before:bg-crust md:py-10 md:px-16 md:before:hidden lg:absolute lg:right-0 lg:top-0 lg:w-9/12 lg:py-16 lg:px-24">
+          <div className="shadow-3xl">
+            <div className="flex h-6 rounded-t-md bg-tab py-2.75 px-2.5">
               <span className="mr-2 block h-2.5 w-2.5 rounded-[50%] bg-red-25" />
               <span className="mr-2 block h-2.5 w-2.5 rounded-[50%] bg-yellow-25" />
               <span className="mr-2 block h-2.5 w-2.5 rounded-[50%] bg-green-25" />
-            </section>
+            </div>
 
             <a
               href="https://crustco.netlify.app/"
@@ -29,10 +29,10 @@ export default function Works() {
                 className="saturate-120"
               />
             </a>
-          </section>
-        </section>
+          </div>
+        </div>
 
-        <section className="relative">
+        <header className="relative">
           <h2 className="pt-10 font-montserrat text-3xl font-semibold sm:text-4xl lg:pt-28 xl:pt-32 xl:text-4.5xl">
             Crust & Co.
           </h2>
@@ -59,17 +59,17 @@ export default function Works() {
           >
             Source Code
           </a>
-        </section>
+        </header>
       </article>
 
       <article className="relative pb-44 lg:pb-[300px]">
-        <section className="z-10 bg-got before:absolute before:left-[-30px] before:top-[-40px] before:z-[-1] before:h-1/4 before:w-[800px] before:bg-got md:py-10 md:px-16 md:before:hidden lg:absolute lg:right-0 lg:top-0 lg:w-9/12 lg:py-16 lg:px-24">
-          <section className="shadow-3xl">
-            <section className="flex h-6 rounded-t-md bg-tab py-2.75 px-2.5">
+        <div className="z-10 bg-got before:absolute before:left-[-30px] before:top-[-40px] before:z-[-1] before:h-1/4 before:w-[800px] before:bg-got md:py-10 md:px-16 md:before:hidden lg:absolute lg:right-0 lg:top-0 lg:w-9/12 lg:py-16 lg:px-24">
+          <div className="shadow-3xl">
+            <div className="flex h-6 rounded-t-md bg-tab py-2.75 px-2.5">
               <span className="mr-2 block h-2.5 w-2.5 rounded-[50%] bg-red-25" />
               <span className="mr-2 block h-2.5 w-2.5 rounded-[50%] bg-yellow-25" />
               <span className="mr-2 block h-2.5 w-2.5 rounded-[50%] bg-green-25" />
-            </section>
+            </div>
 
             <a
               href="https://got-explorer.vercel.app/"
@@ -82,10 +82,10 @@ export default function Works() {
                 className="saturate-135"
               />
             </a>
-          </section>
-        </section>
+          </div>
+        </div>
 
-        <section className="relative">
+        <header className="relative">
           <h2 className="pt-10 font-montserrat text-3xl font-semibold sm:text-4xl lg:pt-28 xl:pt-32 xl:text-4.5xl">
             GOT Explorer
           </h2>
@@ -112,17 +112,17 @@ export default function Works() {
           >
             Source Code
           </a>
-        </section>
+        </header>
       </article>
 
       <article className="relative pb-44 lg:pb-[300px]">
-        <section className="z-10 bg-arid before:absolute before:left-[-30px] before:top-[-40px] before:z-[-1] before:h-1/4 before:w-[800px] before:bg-arid md:py-10 md:px-16 md:before:hidden lg:absolute lg:right-0 lg:top-0 lg:w-9/12 lg:py-16 lg:px-24">
-          <section className="shadow-3xl">
-            <section className="flex h-6 rounded-t-md bg-tab py-2.75 px-2.5">
+        <div className="z-10 bg-arid before:absolute before:left-[-30px] before:top-[-40px] before:z-[-1] before:h-1/4 before:w-[800px] before:bg-arid md:py-10 md:px-16 md:before:hidden lg:absolute lg:right-0 lg:top-0 lg:w-9/12 lg:py-16 lg:px-24">
+          <div className="shadow-3xl">
+            <div className="flex h-6 rounded-t-md bg-tab py-2.75 px-2.5">
               <span className="mr-2 block h-2.5 w-2.5 rounded-[50%] bg-red-25" />
               <span className="mr-2 block h-2.5 w-2.5 rounded-[50%] bg-yellow-25" />
               <span className="mr-2 block h-2.5 w-2.5 rounded-[50%] bg-green-25" />
-            </section>
+            </div>
 
             <a
               href="https://arid-allure.netlify.app/"
@@ -135,10 +135,10 @@ export default function Works() {
                 className="saturate-135"
               />
             </a>
-          </section>
-        </section>
+          </div>
+        </div>
 
-        <section className="relative">
+        <header className="relative">
           <h2 className="pt-10 font-montserrat text-3xl font-semibold sm:text-4xl lg:pt-28 xl:pt-32 xl:text-4.5xl">
             Arid Allure
           </h2>
@@ -164,17 +164,17 @@ export default function Works() {
           >
             Source Code
           </a>
-        </section>
+        </header>
       </article>
 
       <article className="relative pb-44 lg:pb-[300px]">
-        <section className="z-10 bg-odysseriat before:absolute before:left-[-30px] before:top-[-40px] before:z-[-1] before:h-1/4 before:w-[800px] before:bg-odysseriat md:py-10 md:px-16 md:before:hidden lg:absolute lg:right-0 lg:top-0 lg:w-9/12 lg:py-16 lg:px-24">
-          <section className="shadow-3xl">
-            <section className="flex h-6 rounded-t-md bg-tab py-2.75 px-2.5">
+        <div className="z-10 bg-odysseriat before:absolute before:left-[-30px] before:top-[-40px] before:z-[-1] before:h-1/4 before:w-[800px] before:bg-odysseriat md:py-10 md:px-16 md:before:hidden lg:absolute lg:right-0 lg:top-0 lg:w-9/12 lg:py-16 lg:px-24">
+          <div className="shadow-3xl">
+            <div className="flex h-6 rounded-t-md bg-tab py-2.75 px-2.5">
               <span className="mr-2 block h-2.5 w-2.5 rounded-[50%] bg-red-25" />
               <span className="mr-2 block h-2.5 w-2.5 rounded-[50%] bg-yellow-25" />
               <span className="mr-2 block h-2.5 w-2.5 rounded-[50%] bg-green-25" />
-            </section>
+            </div>
 
             <a
               href="https://sashaspievakov.github.io/odysseriat/"
@@ -187,10 +187,10 @@ export default function Works() {
                 className="saturate-135"
               />
             </a>
-          </section>
-        </section>
+          </div>
+        </div>
 
-        <section className="relative">
+        <header className="relative">
           <h2 className="pt-10 font-montserrat text-3xl font-semibold sm:text-4xl lg:pt-28 xl:pt-32 xl:text-4.5xl">
             Odysseriat
           </h2>
@@ -216,17 +216,17 @@ export default function Works() {
           >
             Source Code
           </a>
-        </section>
+        </header>
       </article>
 
       <article className="relative pb-44 lg:pb-[300px]">
-        <section className="z-10 bg-salad before:absolute before:left-[-30px] before:top-[-40px] before:z-[-1] before:h-1/4 before:w-[800px] before:bg-salad md:py-10 md:px-16 md:before:hidden lg:absolute lg:right-0 lg:top-0 lg:w-9/12 lg:py-16 lg:px-24">
-          <section className="shadow-3xl">
-            <section className="flex h-6 rounded-t-md bg-tab py-2.75 px-2.5">
+        <div className="z-10 bg-salad before:absolute before:left-[-30px] before:top-[-40px] before:z-[-1] before:h-1/4 before:w-[800px] before:bg-salad md:py-10 md:px-16 md:before:hidden lg:absolute lg:right-0 lg:top-0 lg:w-9/12 lg:py-16 lg:px-24">
+          <div className="shadow-3xl">
+            <div className="flex h-6 rounded-t-md bg-tab py-2.75 px-2.5">
               <span className="mr-2 block h-2.5 w-2.5 rounded-[50%] bg-red-25" />
               <span className="mr-2 block h-2.5 w-2.5 rounded-[50%] bg-yellow-25" />
               <span className="mr-2 block h-2.5 w-2.5 rounded-[50%] bg-green-25" />
-            </section>
+            </div>
 
             <a
               href="https://sashaspievakov.github.io/salad-verse/"
@@ -239,10 +239,10 @@ export default function Works() {
                 className="saturate-135"
               />
             </a>
-          </section>
-        </section>
+          </div>
+        </div>
 
-        <section className="relative">
+        <header className="relative">
           <h2 className="pt-10 font-montserrat text-3xl font-semibold sm:text-4xl lg:pt-28 xl:pt-32 xl:text-4.5xl">
             Salad Verse
           </h2>
@@ -268,7 +268,7 @@ export default function Works() {
           >
             Source Code
           </a>
-        </section>
+        </header>
       </article>
     </section>
   );
