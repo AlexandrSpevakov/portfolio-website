@@ -208,14 +208,15 @@ export default function Works() {
             View Project
           </a>
 
-          <a
-            href="https://github.com/SashaSpievakov/odysseriat/"
-            target="_blank"
-            rel="noreferrer"
-            className="relative mt-3 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-odysseriat before:px-4 before:duration-500 hover:before:h-5/6 xl:mt-4"
+          <button
+            disabled
+            aria-disabled="true"
+            title="Not available"
+            className="relative mt-3 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-zinc-300 before:px-4 before:duration-500 xl:mt-4"
+            type="button"
           >
             Source Code
-          </a>
+          </button>
         </header>
       </article>
 
@@ -260,14 +261,15 @@ export default function Works() {
             View Project
           </a>
 
-          <a
-            href="https://github.com/SashaSpievakov/salad-verse.git"
-            target="_blank"
-            rel="noreferrer"
-            className="relative mt-3 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-salad before:px-4 before:duration-500 hover:before:h-5/6 xl:mt-4"
+          <button
+            disabled
+            aria-disabled="true"
+            title="Not available"
+            className="relative mt-3 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-zinc-300 before:px-4 before:duration-500 xl:mt-4"
+            type="button"
           >
             Source Code
-          </a>
+          </button>
         </header>
       </article>
     </section>
