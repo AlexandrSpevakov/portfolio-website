@@ -28,7 +28,7 @@ export default function Works() {
             >
               <Image
                 src={imgJobautopilotWebp}
-                alt="JobAutopilot"
+                alt="Job Autopilot"
                 className="saturate-120"
               />
             </a>
@@ -37,7 +37,7 @@ export default function Works() {
 
         <header className="relative">
           <h2 className="pt-10 font-montserrat text-3xl font-semibold sm:text-4xl lg:pt-28 xl:pt-32 xl:text-4.5xl">
-            JobAutopilot
+            Job Autopilot
           </h2>
 
           <p className="mt-2 font-medium leading-8 text-neutral-500 sm:w-80 lg:w-[23%] xl:mt-4">
