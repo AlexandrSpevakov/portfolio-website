@@ -1,5 +1,6 @@
 import Image from 'next/image';
 
+import imgJobautopilotWebp from '../../public/jobautopilot.webp';
 import crust from '../../public/crust&co-work.webp';
 import got from '../../public/got-work.webp';
 import arid from '../../public/arid-allure.webp';
@@ -11,6 +12,58 @@ import salad from '../../public/salad-verse.webp';
 export default function Works() {
   return (
     <section className="mx-auto max-w-screen-xl overflow-hidden px-4 pt-24 text-lg sm:px-6 md:px-10 xl:text-xl">
+      <article className="relative pb-44 lg:pb-[300px]">
+        <div className="z-10 bg-autopilot before:absolute before:left-[-30px] before:top-[-40px] before:z-[-1] before:h-1/4 before:w-[800px] before:bg-autopilot md:py-10 md:px-16 md:before:hidden lg:absolute lg:right-0 lg:top-0 lg:w-9/12 lg:py-16 lg:px-24">
+          <div className="shadow-3xl">
+            <div className="flex h-6 rounded-t-md bg-tab py-2.75 px-2.5">
+              <span className="mr-2 block h-2.5 w-2.5 rounded-[50%] bg-red-25" />
+              <span className="mr-2 block h-2.5 w-2.5 rounded-[50%] bg-yellow-25" />
+              <span className="mr-2 block h-2.5 w-2.5 rounded-[50%] bg-green-25" />
+            </div>
+
+            <a
+              href="https://jobautopilot.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Image
+                src={imgJobautopilotWebp}
+                alt="JobAutopilot"
+                className="saturate-120"
+              />
+            </a>
+          </div>
+        </div>
+
+        <header className="relative">
+          <h2 className="pt-10 font-montserrat text-3xl font-semibold sm:text-4xl lg:pt-28 xl:pt-32 xl:text-4.5xl">
+            JobAutopilot
+          </h2>
+
+          <p className="mt-2 font-medium leading-8 text-neutral-500 sm:w-80 lg:w-[23%] xl:mt-4">
+            SaaS service designed to serve as a job search management hub
+          </p>
+
+          <a
+            href="https://jobautopilot.com/"
+            target="_blank"
+            rel="noreferrer"
+            className="relative mt-5 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-autopilot before:px-4 before:duration-500 hover:before:h-5/6 xl:mt-6"
+          >
+            View Website
+          </a>
+
+          <a
+            href="https://app.jobautopilot.com/"
+            target="_blank"
+            rel="noreferrer"
+            className="relative mt-5 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-autopilot before:px-4 before:duration-500 hover:before:h-5/6 xl:mt-6"
+          >
+            View Tracker
+          </a>
+        </header>
+      </article>
+
       <article className="relative pb-44 lg:pb-[300px]">
         <div className="z-10 bg-crust before:absolute before:left-[-30px] before:top-[-40px] before:z-[-1] before:h-1/4 before:w-[800px] before:bg-crust md:py-10 md:px-16 md:before:hidden lg:absolute lg:right-0 lg:top-0 lg:w-9/12 lg:py-16 lg:px-24">
           <div className="shadow-3xl">
@@ -118,7 +171,7 @@ export default function Works() {
       </article>
 
       <article className="relative pb-44 lg:pb-[300px]">
-        <div className="z-10 bg-ce before:absolute before:left-[-30px] before:top-[-40px] before:z-[-1] before:h-1/4 before:w-[800px] before:bg-ce md:py-10 md:px-16 md:before:hidden lg:absolute lg:right-0 lg:top-0 lg:w-9/12 lg:py-16 lg:px-24">
+        <div className="z-10 bg-autopilot before:absolute before:left-[-30px] before:top-[-40px] before:z-[-1] before:h-1/4 before:w-[800px] before:bg-autopilot md:py-10 md:px-16 md:before:hidden lg:absolute lg:right-0 lg:top-0 lg:w-9/12 lg:py-16 lg:px-24">
           <div className="shadow-3xl">
             <div className="flex h-6 rounded-t-md bg-tab py-2.75 px-2.5">
               <span className="mr-2 block h-2.5 w-2.5 rounded-[50%] bg-red-25" />
@@ -154,7 +207,7 @@ export default function Works() {
             href="https://chrome.google.com/webstore/detail/jobautopilot-chrome-exten/pceedigolbgaoblpnekfeodfcpohhamn?hl=en&authuser=0"
             target="_blank"
             rel="noreferrer"
-            className="relative mt-5 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-ce before:px-4 before:duration-500 hover:before:h-5/6 xl:mt-6"
+            className="relative mt-5 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-autopilot before:px-4 before:duration-500 hover:before:h-5/6 xl:mt-6"
           >
             View Project
           </a>
