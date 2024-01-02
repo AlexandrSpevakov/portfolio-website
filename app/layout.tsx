@@ -5,11 +5,13 @@ import Footer from './components/Footer';
 
 const montserrat = Montserrat({
   weight: ['400', '600'],
+  subsets: ['latin'],
   variable: '--font-montserrat',
 });
 
 const roboto = Roboto({
   weight: ['400', '500'],
+  subsets: ['latin'],
   variable: '--font-roboto',
 });
 
