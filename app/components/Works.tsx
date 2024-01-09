@@ -54,7 +54,7 @@ export default function Works() {
           </a>
 
           <a
-            href="https://app.jobautopilot.com/"
+            href="https://jobautopilot.com/dashboard"
             target="_blank"
             rel="noreferrer"
             className="relative mt-5 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-autopilot before:px-4 before:duration-500 hover:before:h-5/6 xl:mt-6"
