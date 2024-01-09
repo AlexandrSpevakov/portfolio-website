@@ -54,7 +54,7 @@ export default function Works() {
           </a>
 
           <a
-            href="https://app.jobautopilot.com/"
+            href="https://jobautopilot.com/dashboard"
             target="_blank"
             rel="noreferrer"
             className="relative mt-5 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-autopilot before:px-4 before:duration-500 hover:before:h-5/6 xl:mt-6"
@@ -114,6 +114,56 @@ export default function Works() {
           >
             Source Code
           </a>
+        </header>
+      </article>
+
+      <article className="relative pb-44 lg:pb-[300px]">
+        <div className="z-10 bg-salt before:absolute before:left-[-30px] before:top-[-40px] before:z-[-1] before:h-1/4 before:w-[800px] before:bg-salt md:px-16 md:py-10 md:before:hidden lg:absolute lg:right-0 lg:top-0 lg:w-9/12 lg:px-24 lg:py-16">
+          <div className="shadow-3xl">
+            <div className="flex h-6 rounded-t-md bg-tab px-2.5 py-2.75">
+              <span className="mr-2 block h-2.5 w-2.5 rounded-[50%] bg-red-25" />
+              <span className="mr-2 block h-2.5 w-2.5 rounded-[50%] bg-yellow-25" />
+              <span className="mr-2 block h-2.5 w-2.5 rounded-[50%] bg-green-25" />
+            </div>
+
+            <a href="https://selectsalt.com/" target="_blank" rel="noreferrer">
+              <Image
+                src={imgSelectWebp}
+                alt="Select Salt"
+                className="saturate-135"
+              />
+            </a>
+          </div>
+        </div>
+
+        <header className="relative">
+          <h2 className="pt-10 font-montserrat text-3xl font-semibold sm:text-4xl lg:pt-28 xl:pt-32 xl:text-4.5xl">
+            Select Salt
+          </h2>
+
+          <p className="mt-2 font-medium leading-8 text-neutral-500 sm:w-80 lg:w-[23%] xl:mt-4">
+            Designing and building unique Himalayan salt caves and salt rooms
+            across North America.
+          </p>
+
+          <a
+            href="https://selectsalt.com/"
+            target="_blank"
+            rel="noreferrer"
+            className="relative mt-5 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-salt before:px-4 before:duration-500 hover:before:h-5/6 xl:mt-6"
+          >
+            View Project
+          </a>
+
+          <button
+            disabled
+            aria-disabled="true"
+            title="Not available"
+            className="relative mt-3 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-zinc-300 before:px-4 before:duration-500 xl:mt-4"
+            type="button"
+          >
+            Source Code
+          </button>
         </header>
       </article>
 
@@ -208,56 +258,6 @@ export default function Works() {
             target="_blank"
             rel="noreferrer"
             className="relative mt-5 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-autopilot before:px-4 before:duration-500 hover:before:h-5/6 xl:mt-6"
-          >
-            View Project
-          </a>
-
-          <button
-            disabled
-            aria-disabled="true"
-            title="Not available"
-            className="relative mt-3 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-zinc-300 before:px-4 before:duration-500 xl:mt-4"
-            type="button"
-          >
-            Source Code
-          </button>
-        </header>
-      </article>
-
-      <article className="relative pb-44 lg:pb-[300px]">
-        <div className="z-10 bg-salt before:absolute before:left-[-30px] before:top-[-40px] before:z-[-1] before:h-1/4 before:w-[800px] before:bg-salt md:px-16 md:py-10 md:before:hidden lg:absolute lg:right-0 lg:top-0 lg:w-9/12 lg:px-24 lg:py-16">
-          <div className="shadow-3xl">
-            <div className="flex h-6 rounded-t-md bg-tab px-2.5 py-2.75">
-              <span className="mr-2 block h-2.5 w-2.5 rounded-[50%] bg-red-25" />
-              <span className="mr-2 block h-2.5 w-2.5 rounded-[50%] bg-yellow-25" />
-              <span className="mr-2 block h-2.5 w-2.5 rounded-[50%] bg-green-25" />
-            </div>
-
-            <a href="https://selectsalt.com/" target="_blank" rel="noreferrer">
-              <Image
-                src={imgSelectWebp}
-                alt="Select Salt"
-                className="saturate-135"
-              />
-            </a>
-          </div>
-        </div>
-
-        <header className="relative">
-          <h2 className="pt-10 font-montserrat text-3xl font-semibold sm:text-4xl lg:pt-28 xl:pt-32 xl:text-4.5xl">
-            Select Salt
-          </h2>
-
-          <p className="mt-2 font-medium leading-8 text-neutral-500 sm:w-80 lg:w-[23%] xl:mt-4">
-            Designing and building unique Himalayan salt caves and salt rooms
-            across North America.
-          </p>
-
-          <a
-            href="https://selectsalt.com/"
-            target="_blank"
-            rel="noreferrer"
-            className="relative mt-5 block w-fit py-1 pr-2 align-bottom font-medium before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-2/5 before:w-full before:bg-salt before:px-4 before:duration-500 hover:before:h-5/6 xl:mt-6"
           >
             View Project
           </a>
